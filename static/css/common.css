@@ -1,83 +1,87 @@
 /*
  * Author:        Pierre-Henry Soria <hi@ph7.me>
- * Copyright:     (c) 2012-2018, Pierre-Henry Soria. All Rights Reserved.
+ * Copyright:     (c) 2018, Pierre-Henry Soria. All Rights Reserved.
  * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
  */
 
 html {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-  font-family: Arial,Verdana,Helvetica,sans-serif;
-  font-size: 13px;
-  color: #333;
-  background: url(../img/background.jpg) repeat-y;
-  background-size: cover;
-  opacity: 0.5;
-  margin-top: 20px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333;
+    background: url(../img/background.jpg) repeat-y;
+    background-size: cover;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 .center, #container {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
-  width: 80%;
+    width: 80%;
 }
 
 #container {
-  margin-top: 15%;
-  font-weight: bold;
-  width: 60%;
+    margin-top: 15%;
+    font-weight: bold;
+    width: 60%;
 }
 
 #container, #container a {
-  color: #0A2733;
+    color: #0A2733;
 }
 
 header {
-  text-shadow: 0 .9em #ccc,0 0 8px rgba(255,255,255,.6);
-  margin-bottom: 40px;
+    text-shadow: 0 .9em #ccc, 0 0 8px rgba(255, 255, 255, .6);
+    margin-bottom: 40px;
 }
 
 footer {
-  font-size: 11px;
-  margin-top: 80px;
-  margin-bottom: 20px;
-  padding: 1px 10px;
-  clear: both;
-  border-top: 1px dotted #999;
+    font-size: 11px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 1px 10px;
+    clear: both;
+    border-top: 1px dotted #999;
 }
 
 .small {
-  font-size: x-small;
+    font-size: x-small;
 }
 
 .italic {
-  font-style: italic;
+    font-style: italic;
 }
 
 .underline {
-  text-decoration:underline;
+    text-decoration: underline;
 }
 
 abbr {
-  border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted #666;
 }
 
 .success {
-  color: green;
+    color: green;
 }
 
 .warning, .error, .mandatory {
-  color: red;
+    color: red;
 }
 
 .success, .bold, .warning, .error {
-  font-weight: bold;
+    font-weight: bold;
 }
