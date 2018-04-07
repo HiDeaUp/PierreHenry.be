@@ -82,14 +82,6 @@ img, video, iframe {
     max-width: 100%;
 }
 
-.success {
-    color: green;
-}
-
-.warning, .error, .mandatory {
-    color: red;
-}
-
-.success, .bold, .warning, .error {
+.bold {
     font-weight: bold;
 }
