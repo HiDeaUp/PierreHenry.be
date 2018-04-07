@@ -78,6 +78,10 @@ abbr {
     border-bottom: 1px dotted #666;
 }
 
+img, video, iframe {
+    max-width: 100%;
+}
+
 .success {
     color: green;
 }
