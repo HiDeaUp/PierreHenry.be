@@ -37,11 +37,11 @@ h1 {
 #container {
     margin-top: 15%;
     font-weight: bold;
-    width: 60%;
+    width: 80%;
 }
 
 #container, #container a {
-    color: #0A2733;
+    color: #000;
 }
 
 header {
@@ -56,6 +56,10 @@ footer {
     padding: 1px 10px;
     clear: both;
     border-top: 1px dotted #999;
+}
+
+footer, footer a {
+    color: #fff !important;
 }
 
 .small {
