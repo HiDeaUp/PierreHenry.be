@@ -82,9 +82,14 @@ footer, footer a {
 .social-icon {
     border-radius: 10px;
     background-color: #fff;
-    width: 500px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+@media (min-width: 580px) {
+    .social-icon {
+        width: 500px;
+    }
 }
 
 .social-icon a {
