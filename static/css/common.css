@@ -44,6 +44,11 @@ h1 {
     color: #000;
 }
 
+#soriaVideo {
+    width: 560px;
+    height: 315px;
+}
+
 header {
     text-shadow: 0 .9em #ccc, 0 0 8px rgba(255, 255, 255, .6);
     margin-bottom: 40px;
@@ -72,6 +77,18 @@ footer, footer a {
 
 .underline {
     text-decoration: underline;
+}
+
+.social-icon {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.social-icon a {
+    margin-right: 2px;
 }
 
 abbr {
