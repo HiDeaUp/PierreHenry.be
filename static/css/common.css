@@ -107,3 +107,7 @@ img, video, iframe {
 .bold {
     font-weight: bold;
 }
+
+ul {
+    list-style-type: none;
+}
