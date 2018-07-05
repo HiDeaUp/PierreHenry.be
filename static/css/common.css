@@ -88,7 +88,7 @@ footer, footer a {
 
 @media (min-width: 580px) {
     .social-icon {
-        width: 500px;
+        max-width: 550px;
     }
 }
 
