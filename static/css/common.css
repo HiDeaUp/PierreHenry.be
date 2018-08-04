@@ -86,26 +86,28 @@ footer, footer a {
     padding-bottom: 5px;
 }
 
+.social-icon a {
+    margin-right: 2px;
+}
+
 @media (min-width: 580px) {
     .social-icon {
         max-width: 550px;
     }
-}
 
-.social-icon a {
-    margin-right: 2px;
+    .social-icon a {
+        opacity: .7;
+        transition: opacity .35s ease-in-out;
+        -webkit-transition: opacity .35s ease-in-out;
+        -moz-transition: opacity .35s ease-in-out;
+        -o-transition: opacity .35s ease-in-out;
+        -ms-transition: opacity .35s ease-in-out;
+        -khtml-transition: opacity .35s ease-in-out;
+    }
 
-    opacity: .7;
-    transition: opacity .35s ease-in-out;
-    -webkit-transition: opacity .35s ease-in-out;
-    -moz-transition: opacity .35s ease-in-out;
-    -o-transition: opacity .35s ease-in-out;
-    -ms-transition: opacity .35s ease-in-out;
-    -khtml-transition: opacity .35s ease-in-out;
-}
-
-a:hover {
-    opacity: 1;
+    .social-icon a:hover {
+        opacity: 1;
+    }
 }
 
 abbr {
