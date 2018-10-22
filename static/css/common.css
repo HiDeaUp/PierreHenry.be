@@ -30,10 +30,6 @@ h1 {
     margin-right: auto;
 }
 
-.center {
-    width: 80%;
-}
-
 #container {
     margin-top: 5%;
     font-weight: bold;
@@ -64,7 +60,7 @@ footer {
 }
 
 footer, footer a {
-    color: #fff !important;
+    color: #8B0000 !important;
 }
 
 .small {
