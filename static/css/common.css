@@ -46,7 +46,7 @@ h1 {
 }
 
 header {
-    text-shadow: 0 .9em #ccc, 0 0 8px rgba(255, 255, 255, .6);
+    text-shadow: 0 .9em #fff, 0 0 8px rgba(255, 255, 255, .6);
     margin-bottom: 40px;
 }
 
