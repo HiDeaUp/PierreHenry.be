@@ -16,7 +16,7 @@ body {
     color: #333;
     background: url(../img/background.jpg) repeat-y;
     background-size: cover;
-    opacity: 0.5;
+    opacity: .6;
     margin-top: 20px;
 }
 
@@ -86,7 +86,7 @@ footer, footer a {
     margin-right: 2px;
 }
 
-@media (min-width: 580px) {
+@media (min-width: 600px) {
     .social-icon {
         max-width: 650px;
     }
