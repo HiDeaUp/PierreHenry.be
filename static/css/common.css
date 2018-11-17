@@ -14,10 +14,17 @@ body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 13px;
     color: #333;
-    background: url(../img/background.jpg) repeat-y;
     background-size: cover;
     opacity: .6;
     margin-top: 20px;
+}
+
+body#english {
+    background: url(../img/background.jpg) repeat-y;
+}
+
+body#french {
+    background: url(../img/fond-ile.jpg) repeat-y;
 }
 
 h1 {
