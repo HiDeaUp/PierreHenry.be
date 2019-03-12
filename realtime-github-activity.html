@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+          _______________________________________________________________
+ ________|                                                               |_________
+\        | Curiosity killed the cat, but satisfaction brought it back 😼 |        /
+ \       |                                                               |       /
+  \      |     GitHub repo: https://github.com/HiDeaUp/PierreHenry.be    |      /
+  /      |_______________________________________________________________|      \
+ /___________)                                                       (___________\
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>GitHub Activity - Pierre-Henry Soria</title>
+    <link rel="stylesheet" href="./static/css/common.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css" />
+    <link rel="stylesheet" href="./static/css/github-activity.css" />
+    <link rel="icon" href="./favicon.ico" />
+</head>
+<body id="english">
+    <div id="container">
+        <header>
+            <h1>My Real-Time GitHub Activity 😊</h1>
+        </header>
+
+        <section>
+            <div id="github-feed"></div>
+        </section>
+
+        <footer>
+            <p>
+                <span role="img" aria-label="Speak to me">🔈</span> Speak with me at: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#112;&#104;&#55;&#46;&#109;&#101;" rel="nofollow"><i>hi</i>@<abbr title="Pierre-Henry">PH</abbr><abbr title="pH Neutral">7</abbr>.<i>me</i></a>
+            </p>
+
+            <div class="social-icon center">
+                <a href="https://github.com/pH-7" target="_blank" rel="noopener">
+                    <img src="static/img/icon/github.svg" alt="GitHub Profile">
+                </a>
+                <a href="https://www.linkedin.com/in/ph7enry/" target="_blank" rel="noopener">
+                    <img src="static/img/icon/linkedin.svg" alt="LinkedIn Profile">
+                </a>
+                <a href="https://www.instagram.com/phenrys/" target="_blank" rel="noopener">
+                    <img src="static/img/icon/instagram.svg" alt="Instagram Page">
+                </a>
+                <a href="https://medium.com/@phenrysay" target="_blank" rel="noopener">
+                    <img src="static/img/icon/medium.svg" alt="Medium Account">
+                </a>
+                <a href="https://soundcloud.com/phenrys" target="_blank" rel="noopener">
+                    <!-- <img src="static/img/icon/soundcloud.svg" alt="SoundCloud Account"> -->
+                    <img src="static/img/icon/podcast.svg" alt="Subscribe to my Podcast">
+                </a>
+                <a href="https://www.goodreads.com/phenry" target="_blank" rel="noopener">
+                    <img src="static/img/icon/goodreads.svg" alt="Goodreads Profile">
+                </a>
+            </div>
+
+            <p>
+                Thanks for stopping by! 😅
+            </p>
+            <p class="italic">
+                <span id="copyrightYear"></span> Coded with LOTS of <span role="img" aria-label="love">❤️</span> by <a href="http://ph7.me">Pierre-Henry Soria</a> :)
+            </p>
+            <p>
+                <a hreflang="fr" href="http://pierrehenry.be/developpeur-web-mobile.html" title="French version">
+                    <span role="img" aria-label="French version">🇫🇷</span> Français
+                </a>
+            </p>
+        </footer>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+    <script src="./static/js/github-activity.js"></script>
+    <script>
+        GitHubActivity.feed({
+            username: "pH-7",
+            selector: "#github-feed",
+            limit: 30
+        });
+    </script>
+    <script>document.getElementById('copyrightYear').innerHTML=(new Date).getFullYear()</script>
+</body>
+</html>
