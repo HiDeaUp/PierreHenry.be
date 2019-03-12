@@ -6,10 +6,10 @@ function save-project-to-repo() {
     git push
 }
 
-gitRemotes=(
-    git@github.com:HiDeaUp/PierreHenry.be.git
+declare readonly gitRemotes=(
     git@bitbucket.org:pH_7/pierrehenry.be.git
     git@gitlab.com:pH-7/pierrehenry.be.git
+    git@github.com:HiDeaUp/PierreHenry.be.git
 )
 for remote in "${gitRemotes[@]}"
 do
