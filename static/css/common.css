@@ -53,6 +53,10 @@ h1 {
     color: #08c;
 }
 
+#container img {
+  border-radius: 25px;
+}
+
 #soriaVideo {
     width: 560px;
     height: 315px;
