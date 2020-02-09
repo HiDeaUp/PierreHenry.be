@@ -1,6 +1,6 @@
 /*
  * Author:        Pierre-Henry Soria <hi@ph7.me>
- * Copyright:     (c) 2018, Pierre-Henry Soria. All Rights Reserved.
+ * Copyright:     (c) 2018-2020, Pierre-Henry Soria. All Rights Reserved.
  * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
  */
 
@@ -38,8 +38,13 @@ h1 {
 }
 
 #container {
-    margin-top: 5%;
+    background-color: #fff;
+    color: #222;
     font-weight: bold;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 10px 22px 0px 22px;
     width: 80%;
 }
 
