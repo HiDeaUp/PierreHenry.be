@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: .9rem;
     color: #333;
     background-size: cover;
     opacity: .8;
@@ -41,8 +41,7 @@ h1 {
 #container {
     background-color: #fff;
     color: #222;
-    font-weight: bold;
-    line-height: 30px;
+    line-height: 1.9rem;
     border-radius: 15px;
     margin-top: 5%;
     padding: 10px 22px 0 22px;
