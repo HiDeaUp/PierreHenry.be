@@ -195,7 +195,7 @@ After publishing:
 4. Confirm the rendered title, canonical URL and structured data.
 5. Check that OAI-SearchBot remains allowed in `robots.txt`.
 6. Monitor queries, indexed pages, referral sources and crawl errors monthly.
-7. Use IndexNow for important new or updated URLs if the hosting setup supports a verified key.
+7. Use the root-level IndexNow key for important new or updated URLs. The first five public URLs were submitted on 15 August 2026. Submit only URLs that changed, after the deployment is live.
 
 The `llms.txt` file is a supplemental, proposed convention. It does not replace useful pages, structured data, crawlable HTML or a sitemap.
 
