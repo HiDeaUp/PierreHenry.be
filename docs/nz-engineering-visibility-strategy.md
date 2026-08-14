@@ -12,6 +12,25 @@ Wellington is the primary market. Australia and remote roles remain in scope.
 
 The long-term objective is broader than securing a role. The professional presence should create senior career opportunities, valuable customer conversations, speaking and collaboration invitations, and evidence about repeated problems that could justify a scalable product.
 
+## Current baseline: 15 August 2026
+
+Completed:
+
+- the revised professional homepage, work-with-me page and discovery files are live;
+- Google Search Console ownership is verified for `https://www.pierrehenry.be/`;
+- the XML sitemap was processed successfully and all five submitted pages were discovered;
+- the homepage is indexed and its refreshed version is in Google's priority crawl queue;
+- the new work-with-me page is in Google's priority crawl queue;
+- Google's live test reports the homepage as indexable with one valid ProfilePage item and no structured-data warning;
+- OAI-SearchBot, ChatGPT-User and Googlebot can fetch the live site;
+- GitHub, X, YouTube, Substack, Bluesky and Udemy use the same current positioning and canonical website.
+
+Open:
+
+- LinkedIn requires an authenticated browser session before its current profile can be aligned;
+- ph7.me is already indexed and crawlable, but its source or administration route is not available in this workspace;
+- search snippets and query data need time to refresh before performance conclusions are useful.
+
 ## Positioning
 
 Lead with four transferable signals:

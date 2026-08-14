@@ -104,4 +104,4 @@ The revised homepage, work-with-me page, CV draft and LinkedIn draft now use the
 - AI-native delivery described as a controlled engineering workflow;
 - no unsupported specialist, standards or data-exchange claims.
 
-Remaining consistency work is operational: publish the website changes, align LinkedIn after authentication, and update the extended profile when its source or administration path is available. Historical work should remain available and unchanged.
+The revised website is now published, verified in Google Search Console and submitted for recrawling. Remaining consistency work is operational: align LinkedIn after authentication, update the extended profile when its source or administration path is available, and replace the current banking-role placeholders when verified impact evidence is supplied. Historical work should remain available and unchanged.
