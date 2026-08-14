@@ -1,0 +1,34 @@
+# Pierre-Henry Soria
+
+> Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents as part of the normal engineering toolchain. His primary market is Wellington, New Zealand. He is also open internationally.
+
+Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect. He is also open to focused technical advisory, architecture with implementation, early product-building, speaking and technical collaboration when there is a real problem and a clear outcome.
+
+Public evidence includes enterprise automation in regulated environments, food-tech reliability work, health software for doctors, patients and pharmacies, enterprise SaaS, New Zealand product engineering, a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
+
+## Profile
+
+- [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
+- [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
+- [Work with Pierre-Henry](https://www.pierrehenry.be/work-with-me.html): Roles, advisory, product-building, technical collaboration, problems he is useful for and contact details.
+
+## Public technical work
+
+- [GitHub](https://github.com/pH-7): Personal software and open-source work.
+- [pH7 Software](https://github.com/pH7Software): Open-source organisation including pH7Builder.
+- [Real-time GitHub activity](https://www.pierrehenry.be/realtime-github-activity.html): Public activity feed.
+- [YouTube](https://www.youtube.com/@pH7Programming/videos): Technical video channel.
+- [Udemy](https://www.udemy.com/user/pierresoria/): Instructor profile and published courses.
+- [Substack](https://substack.com/@pierrehenry): Long-form writing.
+- [Dev.to](https://dev.to/pierre): Developer articles.
+
+## Identity
+
+- [LinkedIn](https://www.linkedin.com/in/ph7enry/): Professional profile.
+- [Bluesky](https://bsky.app/profile/pierrehenry.dev): Technical notes and engineering observations.
+- [Extended profile](https://ph7.me/): Additional career history and project links.
+
+## Optional
+
+- [Now](https://www.pierrehenry.be/now.html): Current personal and professional interests.
+- [French profile](https://www.pierrehenry.be/developpeur-web-mobile.html): Historical French-language profile.
