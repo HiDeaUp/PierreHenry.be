@@ -46,6 +46,8 @@ Pierre-Henry is open to:
 
 The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic freelance development, outsourced agency work or broad business coaching.
 
+Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
+
 ## Selected experience
 
 - Enterprise automation: built decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
@@ -79,4 +81,4 @@ The common requirement is a real technology or product problem, meaningful owner
 
 ## Contact
 
-Email: hi@ph7.me
+Email: pierre@pierrehenry.dev

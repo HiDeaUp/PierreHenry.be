@@ -11,6 +11,7 @@ Public evidence includes enterprise automation in regulated environments, food-t
 - [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
 - [Work with Pierre-Henry](https://www.pierrehenry.be/work-with-me.html): Roles, advisory, product-building, technical collaboration, problems he is useful for and contact details.
+- [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
 ## Public technical work
 
