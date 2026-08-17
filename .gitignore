@@ -17,3 +17,6 @@ Thumbs.db
 # Mac OS
 .DS_Store*
 ._*
+
+## Private client acquisition working data
+.outreach/
