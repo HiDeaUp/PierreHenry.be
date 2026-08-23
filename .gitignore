@@ -20,3 +20,7 @@ Thumbs.db
 
 ## Private client acquisition working data
 .outreach/
+
+## Generated CV exports and render previews
+/output/
+/tmp/
