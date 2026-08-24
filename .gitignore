@@ -24,3 +24,6 @@ Thumbs.db
 ## Generated CV exports and render previews
 /output/
 /tmp/
+
+## Private professional positioning and content working documents
+/docs/
