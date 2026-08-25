@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pierrehenry.be/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.pierrehenry.be/work-with-me.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.pierrehenry.be/healthtech-ai-product-engineer.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://www.pierrehenry.be/developpeur-web-mobile.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>

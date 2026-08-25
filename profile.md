@@ -31,7 +31,7 @@ Also relevant:
 - AI-native development using agent orchestration, Model Context Protocol tools and reusable skills
 - Technical leadership, teaching, documentation and engineering quality
 - Reliability, scalability, software modernisation and technical-debt decisions
-- Enterprise automation for security-advisory workflows
+- Enterprise automation for decision-support and operational workflows
 
 ## Ways to work together
 
@@ -51,10 +51,10 @@ Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-
 ## Selected experience
 
 - Enterprise automation: built decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
-- Food tech: improved online-ordering reliability at Zambrero through infrastructure, caching, query, data-mapping and database-index improvements.
-- Enterprise SaaS: worked across frontend, backend and core visitor-management systems at Sine and Honeywell using Node.js, React, TypeScript and AWS, with responsibility for test-automation practices and teaching.
+- Food tech: improved online-ordering reliability through infrastructure, caching, query, data-mapping and database-index work.
+- Enterprise SaaS: worked across frontend, backend and core operational systems using Node.js, React, TypeScript and AWS, with responsibility for test-automation practices and teaching.
 - Health software: built user-facing platforms for doctors, patients and pharmacies at a Sydney startup.
-- New Zealand product engineering: built web applications, APIs and commerce workflows at Eyemagnet using PHP, Symfony, JavaScript and PostgreSQL.
+- New Zealand product engineering: built web applications, APIs and commerce workflows using PHP, Symfony, JavaScript and PostgreSQL.
 - Founder: created a healthy-food product across mobile applications and backend services.
 
 ## Public evidence
