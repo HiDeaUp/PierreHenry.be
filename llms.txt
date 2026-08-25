@@ -4,7 +4,7 @@
 
 Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect. He is also open to focused technical advisory, architecture with implementation, early product-building, speaking and technical collaboration when there is a real problem and a clear outcome.
 
-Public evidence includes enterprise automation in regulated environments, food-tech reliability work, health software for doctors, patients and pharmacies, enterprise SaaS, New Zealand product engineering, a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
+Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
 ## Profile
 
