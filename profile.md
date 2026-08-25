@@ -2,9 +2,9 @@
 
 Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents, Model Context Protocol tools and reusable skills as part of the normal engineering toolchain.
 
-Primary market: Wellington, New Zealand. Also open to Australia and remote teams.
+Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
-## Role fit
+## Consulting and role fit
 
 Primary roles:
 
@@ -37,6 +37,9 @@ Also relevant:
 
 Pierre-Henry is open to:
 
+- focused product and architecture assessments;
+- scoped engineering delivery sprints;
+- embedded senior engineering engagements;
 - senior or lead engineering roles;
 - founding and early product-building work;
 - focused technical advisory on architecture, reliability, scalability, modernisation, AI delivery and technical debt;
@@ -44,7 +47,7 @@ Pierre-Henry is open to:
 - speaking, technical education and collaboration;
 - conversations about repeated customer problems that may justify a scalable product.
 
-The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic freelance development, outsourced agency work or broad business coaching.
+Consulting can begin with a focused decision, continue through a scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 

@@ -1,8 +1,8 @@
 # Pierre-Henry Soria
 
-> Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents as part of the normal engineering toolchain. His primary market is Wellington, New Zealand. He is also open internationally.
+> Pierre-Henry Soria is a product-first senior software engineer, consultant and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents as part of the normal engineering toolchain. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
 
-Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect. He is also open to focused technical advisory, architecture with implementation, early product-building, speaking and technical collaboration when there is a real problem and a clear outcome.
+Consulting options include focused product and architecture assessments, scoped engineering delivery sprints and embedded senior engineering. Pierre-Henry's role fit also includes Senior or Lead Software Engineer, AI Product Engineer, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
 
 Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
@@ -10,7 +10,7 @@ Public evidence includes enterprise automation in regulated environments and pro
 
 - [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
-- [Work with Pierre-Henry](https://www.pierrehenry.be/work-with-me.html): Roles, advisory, product-building, technical collaboration, problems he is useful for and contact details.
+- [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Focused assessments, delivery sprints, embedded senior engineering, long-term roles and contact details.
 - [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
 ## Public technical work
