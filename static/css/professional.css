@@ -26,6 +26,7 @@ html {
 
 body {
     margin: 0;
+    overflow-x: clip;
     color: var(--ink);
     background:
         linear-gradient(rgba(16, 42, 67, .025) 1px, transparent 1px),
