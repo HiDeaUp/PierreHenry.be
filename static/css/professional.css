@@ -1144,6 +1144,16 @@ nav a {
     margin-top: 0;
 }
 
+.service-layout > aside {
+    position: sticky;
+    top: 7rem;
+    align-self: start;
+}
+
+.service-layout > aside .callout {
+    margin-block: 1rem;
+}
+
 .service-aside {
     padding: 1.7rem;
     border-radius: var(--radius);
@@ -1185,6 +1195,10 @@ nav a {
     .article-layout,
     .role-layout {
         grid-template-columns: 1fr;
+    }
+
+    .service-layout > aside {
+        position: static;
     }
 
     .proof-grid {
