@@ -1,8 +1,10 @@
 # Pierre-Henry Soria
 
-> Pierre-Henry Soria is a product-first senior software engineer, consultant and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents as part of the normal engineering toolchain. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
+> Pierre-Henry Soria is a product-first senior software engineer, consultant and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software and designs and orchestrates LLM-agent workflows across implementation, testing and review. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
 
-Consulting options include focused product and architecture assessments, scoped engineering delivery sprints and embedded senior engineering. Pierre-Henry's role fit also includes Senior or Lead Software Engineer, AI Product Engineer, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+Consulting can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit also includes Senior or Lead Software Engineer, AI Product Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+
+Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
 
 Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
@@ -12,7 +14,7 @@ Public evidence includes enterprise automation in regulated environments and pro
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
 - [Engineering projects and consulting assets](https://www.pierrehenry.be/engineering-assets.html): Curated public evidence for long-term platform work, private and on-device AI, product foundations, food-tech systems and technical education.
 - [Machine-readable engineering assets](https://www.pierrehenry.be/engineering-assets.md): Plain-text project evidence, limitations and consulting applications.
-- [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Focused assessments, delivery sprints, embedded senior engineering, long-term roles and contact details.
+- [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Production Risk & Delivery Sprint, scoped delivery, embedded senior engineering, long-term roles and contact details.
 - [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
 ## Public technical work

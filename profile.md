@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software, works through difficult engineering decisions and uses AI agents, Model Context Protocol tools and reusable skills as part of the normal engineering toolchain.
+Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software and works through difficult engineering decisions. He designs and orchestrates LLM-agent workflows, Model Context Protocol tools and reusable skills across implementation, testing and review, while keeping evaluation and human judgement explicit.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -10,6 +10,7 @@ Primary roles:
 
 - Senior or Lead Software Engineer
 - AI Product Engineer
+- Agentic Systems Architect
 - Founding Engineer
 - Principal Software Engineer
 - Software Architect
@@ -28,7 +29,7 @@ Also relevant:
 - Software architecture, backend systems, APIs and cloud infrastructure
 - Correctness-critical, user-facing and operational workflows
 - TypeScript, Node.js, React, AWS, PHP, Symfony, JavaScript and PostgreSQL
-- AI-native development using agent orchestration, Model Context Protocol tools and reusable skills
+- AI-agent architecture, orchestration and evaluation using Model Context Protocol tools and reusable skills
 - Technical leadership, teaching, documentation and engineering quality
 - Reliability, scalability, software modernisation and technical-debt decisions
 - Enterprise automation for decision-support and operational workflows
@@ -37,8 +38,8 @@ Also relevant:
 
 Pierre-Henry is open to:
 
-- focused product and architecture assessments;
-- scoped engineering delivery sprints;
+- a five-business-day Production Risk & Delivery Sprint, up to 15 hours, ending with a prioritised risk map, technical plan, a 60-minute handoff and, when useful, one bounded implementation or prototype;
+- larger scoped engineering delivery after the first bounded engagement;
 - embedded senior engineering engagements;
 - senior or lead engineering roles;
 - founding and early product-building work;
@@ -47,7 +48,7 @@ Pierre-Henry is open to:
 - speaking, technical education and collaboration;
 - conversations about repeated customer problems that may justify a scalable product.
 
-Consulting can begin with a focused decision, continue through a scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
+Consulting can begin with a Production Risk & Delivery Sprint, continue through a larger scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 
@@ -55,7 +56,9 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Specialist consulting positions
 
+- AI agent orchestration for correctness-critical product delivery
 - AI-first product engineering for correctness-critical workflows
+- AI-first product engineering for MedTech, FoodTech and FinTech teams, grounded in health software, food-tech and regulated financial-services experience
 - Private and on-device AI product engineering
 - Health, wellness and food product engineering
 - Founder-led SaaS platform modernisation
@@ -63,7 +66,7 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Selected experience
 
-- Enterprise automation: built decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
+- Financial services: built enterprise decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
 - Food tech: improved online-ordering reliability at Zambrero through infrastructure, caching, query, data-mapping and database-index work.
 - Enterprise SaaS: worked at Sine and Honeywell across frontend, backend and core operational systems using Node.js, React, TypeScript and AWS, with responsibility for test-automation practices and teaching.
 - Health software: built user-facing platforms for doctors, patients and pharmacies at Updoc.
