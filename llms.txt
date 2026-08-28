@@ -10,6 +10,8 @@ Public evidence includes enterprise automation in regulated environments and pro
 
 - [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
+- [Engineering projects and consulting assets](https://www.pierrehenry.be/engineering-assets.html): Curated public evidence for long-term platform work, private and on-device AI, product foundations, food-tech systems and technical education.
+- [Machine-readable engineering assets](https://www.pierrehenry.be/engineering-assets.md): Plain-text project evidence, limitations and consulting applications.
 - [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Focused assessments, delivery sprints, embedded senior engineering, long-term roles and contact details.
 - [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
@@ -17,6 +19,11 @@ Public evidence includes enterprise automation in regulated environments and pro
 
 - [GitHub](https://github.com/pH-7): Personal software and open-source work.
 - [pH7 Software](https://github.com/pH7Software): Open-source organisation including pH7Builder.
+- [pH7Builder](https://github.com/pH7Software/pH7-Social-Dating-CMS): A long-running self-hosted community platform with more than 11,000 commits.
+- [ToucanDB](https://github.com/ToucanDB/ToucanDB): A beta embedded local-first vector database for semantic search, retrieval and application memory.
+- [pH7Console](https://github.com/EfficientTools/pH7Console): A privacy-first macOS command console with local intelligence and encrypted history.
+- [SucceedAI](https://github.com/SucceedAI/macOS-Desktop-App): A private on-device writing assistant for Apple platforms.
+- [Orbit](https://github.com/pH-7/orbit): A strict TypeScript foundation for maintainable web products.
 - [Real-time GitHub activity](https://www.pierrehenry.be/realtime-github-activity.html): Public activity feed.
 - [YouTube](https://www.youtube.com/@pH7Programming/videos): Technical video channel.
 - [Udemy](https://www.udemy.com/user/pierresoria/): Instructor profile and published courses.

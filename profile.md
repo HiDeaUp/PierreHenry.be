@@ -51,6 +51,16 @@ Consulting can begin with a focused decision, continue through a scoped build or
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 
+Engineering projects and consulting assets: https://www.pierrehenry.be/engineering-assets.html
+
+## Specialist consulting positions
+
+- AI-first product engineering for correctness-critical workflows
+- Private and on-device AI product engineering
+- Health, wellness and food product engineering
+- Founder-led SaaS platform modernisation
+- AI-first engineering delivery systems with hands-on implementation
+
 ## Selected experience
 
 - Enterprise automation: built decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
@@ -67,6 +77,16 @@ Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-
 - Author of four software-engineering courses with more than 225,000 combined enrolments.
 - Creator of a technical YouTube channel and Substack.
 - Postgraduate diploma in data science with distinction and a computer science degree.
+
+## Selected engineering systems
+
+- pH7Builder: a long-running self-hosted community platform demonstrating product evolution, platform maintenance and more than 11,000 commits. https://github.com/pH7Software/pH7-Social-Dating-CMS
+- ToucanDB: a beta embedded local-first vector database demonstrating semantic retrieval, durable storage, source attribution, encryption boundaries and evaluation. https://github.com/ToucanDB/ToucanDB
+- pH7Console: a privacy-first macOS command console demonstrating local model execution, encrypted history and user-controlled workspace access. https://github.com/EfficientTools/pH7Console
+- SucceedAI: an on-device writing assistant demonstrating private Apple-platform AI and explicit user-controlled transformations. https://github.com/SucceedAI/macOS-Desktop-App
+- Orbit: a strict TypeScript application foundation demonstrating routing, APIs, tests and continuous integration. https://github.com/pH-7/orbit
+- Lifyzer: founder product work across food data, backend services, native mobile applications and offline product architecture. https://github.com/Lifyzer
+- Technical publishing systems: corpus processing, knowledge extraction, video-to-article automation, visual tooling and four software-engineering courses with more than 225,000 combined enrolments. https://github.com/pH-7/youtube-to-medium-blog-posts-automation
 
 ## Public identity links
 
