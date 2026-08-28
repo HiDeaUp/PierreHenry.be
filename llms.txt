@@ -1,8 +1,10 @@
 # Pierre-Henry Soria
 
-> Pierre-Henry Soria is a product-first senior software engineer, consultant and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software and designs and orchestrates LLM-agent workflows across implementation, testing and review. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
+> Pierre-Henry Soria is an AI engineer, product-first senior software engineer and technology builder with 12 years in software delivery. He turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped, correctness-critical software. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
 
-Consulting can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit also includes Senior or Lead Software Engineer, AI Product Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+Consulting can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit includes AI Engineer, AI Product Engineer, Senior or Lead Software Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+
+Supported AI engineering evidence includes permission-scoped LLM application contracts, AI-agent orchestration, Model Context Protocol tools, source-cited retrieval, a beta framework-neutral RAG component, retrieval and structured-output evaluation, local model execution, private on-device AI, Postgres/pgvector data design and production-oriented AWS deployment infrastructure. The public evidence does not support claims of foundation-model training, fine-tuning, production RAG at scale or dedicated MLOps expertise.
 
 Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
 
@@ -12,6 +14,7 @@ Public evidence includes enterprise automation in regulated environments and pro
 
 - [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
+- [AI engineering](https://www.pierrehenry.be/ai-engineer.html): LLM applications, AI agents, RAG systems, workflow automation, evaluation and production-oriented engineering.
 - [Engineering projects and consulting assets](https://www.pierrehenry.be/engineering-assets.html): Curated public evidence for long-term platform work, private and on-device AI, product foundations, food-tech systems and technical education.
 - [Machine-readable engineering assets](https://www.pierrehenry.be/engineering-assets.md): Plain-text project evidence, limitations and consulting applications.
 - [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Production Risk & Delivery Sprint, scoped delivery, embedded senior engineering, long-term roles and contact details.

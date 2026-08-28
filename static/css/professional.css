@@ -1530,6 +1530,11 @@ nav a {
         display: block;
         overflow-x: auto;
     }
+
+    .section-intro .text-link {
+        overflow-wrap: anywhere;
+        white-space: normal;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {

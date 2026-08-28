@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a product-first senior software engineer and technology builder with 12 years of experience. He turns product ideas into shipped, correctness-critical software and works through difficult engineering decisions. He designs and orchestrates LLM-agent workflows, Model Context Protocol tools and reusable skills across implementation, testing and review, while keeping evaluation and human judgement explicit.
+Pierre-Henry Soria is an AI engineer, product-first senior software engineer and technology builder with 12 years in software delivery. He turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped, correctness-critical software. Architecture, evaluation, security and human judgement remain explicit engineering responsibilities.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -8,8 +8,9 @@ Primary market: Wellington, New Zealand. Open for consulting, contract work and 
 
 Primary roles:
 
-- Senior or Lead Software Engineer
+- AI Engineer
 - AI Product Engineer
+- Senior or Lead Software Engineer
 - Agentic Systems Architect
 - Founding Engineer
 - Principal Software Engineer
@@ -29,7 +30,10 @@ Also relevant:
 - Software architecture, backend systems, APIs and cloud infrastructure
 - Correctness-critical, user-facing and operational workflows
 - TypeScript, Node.js, React, AWS, PHP, Symfony, JavaScript and PostgreSQL
-- AI-agent architecture, orchestration and evaluation using Model Context Protocol tools and reusable skills
+- LLM applications, AI-agent architecture and workflow automation using Model Context Protocol tools and reusable skills
+- Retrieval-augmented generation, semantic search, source attribution and retrieval evaluation through ToucanDB and recent product work
+- API integrations, production-oriented AWS deployment infrastructure and Postgres/pgvector data design
+- Retrieval and structured-output evaluation, including citation checks, latency measurement and deterministic fallbacks
 - Technical leadership, teaching, documentation and engineering quality
 - Reliability, scalability, software modernisation and technical-debt decisions
 - Enterprise automation for decision-support and operational workflows
@@ -52,11 +56,14 @@ Consulting can begin with a Production Risk & Delivery Sprint, continue through 
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 
+Focused AI engineering profile: https://www.pierrehenry.be/ai-engineer.html
+
 Engineering projects and consulting assets: https://www.pierrehenry.be/engineering-assets.html
 
 ## Specialist consulting positions
 
 - AI agent orchestration for correctness-critical product delivery
+- LLM application and RAG engineering for permission-sensitive products
 - AI-first product engineering for correctness-critical workflows
 - AI-first product engineering for MedTech, FoodTech and FinTech teams, grounded in health software, food-tech and regulated financial-services experience
 - Private and on-device AI product engineering
@@ -73,6 +80,15 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 - New Zealand product engineering: built web applications, APIs and commerce workflows at Eyemagnet using PHP, Symfony, JavaScript and PostgreSQL.
 - Founder: created a healthy-food product across mobile applications and backend services.
 
+## AI engineering evidence
+
+- Recent product work includes permission-scoped LLM application contracts, API-filtered retrieval and actions, source-citation checks, rate limits and human escalation.
+- Built AWS deployment infrastructure for isolated AI runtimes using ECS, Bedrock-scoped IAM, Secrets Manager and health-checked CI/CD. This is implemented infrastructure, not a claim that every runtime is currently serving production traffic.
+- Designed Postgres/pgvector document storage and vector indexes. This is not presented as a verified production-scale RAG deployment.
+- ToucanDB is a beta, framework-neutral RAG and vector-retrieval component with durable SQLite storage, rebuildable FAISS indexes, namespace isolation, source attribution, encryption boundaries and reviewed retrieval evaluation.
+- pH7Console demonstrates local model execution and user-controlled workspace access. SucceedAI demonstrates private, on-device AI with explicit user control and safe replacement behaviour.
+- The wider production foundation includes APIs, PostgreSQL, AWS, Terraform, Docker, CI/CD, test automation, mobile delivery and operational ownership.
+
 ## Public evidence
 
 - Creator of a 13-year open-source platform backed by more than 11,000 commits.
@@ -84,7 +100,7 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 ## Selected engineering systems
 
 - pH7Builder: a long-running self-hosted community platform demonstrating product evolution, platform maintenance and more than 11,000 commits. https://github.com/pH7Software/pH7-Social-Dating-CMS
-- ToucanDB: a beta embedded local-first vector database demonstrating semantic retrieval, durable storage, source attribution, encryption boundaries and evaluation. https://github.com/ToucanDB/ToucanDB
+- ToucanDB: a beta embedded local-first RAG and vector database demonstrating semantic retrieval, durable storage, source attribution, namespace isolation, encryption boundaries and retrieval evaluation. https://github.com/ToucanDB/ToucanDB
 - pH7Console: a privacy-first macOS command console demonstrating local model execution, encrypted history and user-controlled workspace access. https://github.com/EfficientTools/pH7Console
 - SucceedAI: an on-device writing assistant demonstrating private Apple-platform AI and explicit user-controlled transformations. https://github.com/SucceedAI/macOS-Desktop-App
 - Orbit: a strict TypeScript application foundation demonstrating routing, APIs, tests and continuous integration. https://github.com/pH-7/orbit

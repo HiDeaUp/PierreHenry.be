@@ -17,8 +17,8 @@ This is a curated evidence page. The complete historical archive remains availab
 
 - Public source: https://github.com/ToucanDB/ToucanDB
 - Status: beta embedded component, not a distributed service.
-- Demonstrates: local-first semantic search and retrieval, durable SQLite storage, rebuildable search indexes, source attribution, encryption boundaries and evaluation.
-- Consulting relevance: private retrieval, local agents and confidential knowledge products.
+- Demonstrates: a framework-neutral retrieval-augmented generation pipeline, local-first semantic search, durable SQLite storage, rebuildable FAISS indexes, namespace isolation, source attribution, encryption boundaries and retrieval evaluation.
+- Consulting relevance: private RAG, LLM applications, local agents and confidential knowledge products.
 
 ### pH7Console
 
