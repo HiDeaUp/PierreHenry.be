@@ -777,6 +777,10 @@ nav a {
     color: var(--ink-soft);
 }
 
+.project-evidence-cta {
+    margin-top: 1rem;
+}
+
 .article-arrow {
     color: var(--accent);
     font-weight: 700;
@@ -1183,6 +1187,177 @@ nav a {
     font-size: .86rem;
 }
 
+/* Engineering assets */
+.asset-page-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.asset-page-hero::after {
+    position: absolute;
+    z-index: -1;
+    top: 2.5rem;
+    right: -8rem;
+    width: min(30rem, 48vw);
+    aspect-ratio: 1;
+    border: 1px solid rgba(23, 107, 104, .14);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 3.5rem rgba(23, 107, 104, .035),
+        0 0 0 7rem rgba(202, 98, 74, .025);
+    content: "";
+}
+
+.section-intro {
+    max-width: 68ch;
+    color: var(--ink-soft);
+}
+
+.asset-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.asset-card {
+    position: relative;
+    display: flex;
+    min-height: 31rem;
+    flex-direction: column;
+    padding: clamp(1.6rem, 4vw, 2.5rem);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: .35rem 1.6rem .35rem 1.6rem;
+    background: var(--surface);
+}
+
+.asset-card:nth-child(even) {
+    border-radius: 1.6rem .35rem 1.6rem .35rem;
+}
+
+.asset-card::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: .3rem;
+    background: var(--accent);
+    content: "";
+}
+
+.asset-card:nth-child(3n + 2)::before {
+    background: var(--coral);
+}
+
+.asset-card-featured {
+    grid-column: 1 / -1;
+    min-height: auto;
+    background:
+        linear-gradient(90deg, rgba(223, 240, 236, .55), transparent 62%),
+        var(--surface);
+}
+
+.asset-number {
+    margin-bottom: 1.3rem;
+    color: var(--coral);
+    font: 600 .72rem/1.4 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.asset-card h3 {
+    max-width: 22ch;
+    font-family: var(--display);
+    font-size: clamp(1.75rem, 3vw, 2.45rem);
+}
+
+.asset-card > p:not(.asset-number) {
+    max-width: 64ch;
+    color: var(--ink-soft);
+}
+
+.asset-proof {
+    display: grid;
+    margin: auto 0 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.asset-proof dt {
+    padding-top: .8rem;
+    border-top: 1px solid var(--line);
+    margin-bottom: .2rem;
+    color: var(--accent-dark);
+    font: 600 .68rem/1.4 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.asset-proof dd {
+    margin: 0 0 .8rem;
+    color: var(--ink-soft);
+    font-size: .9rem;
+}
+
+.asset-card .inline-links {
+    margin-top: auto;
+    padding-top: 1.5rem;
+}
+
+.asset-method {
+    color: var(--white);
+    background:
+        linear-gradient(120deg, rgba(202, 98, 74, .14), transparent 42%),
+        var(--ink);
+}
+
+.asset-method-layout {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: clamp(3rem, 8vw, 7rem);
+    padding-block: clamp(5rem, 10vw, 8rem);
+}
+
+.asset-method h2 {
+    color: var(--white);
+}
+
+.asset-method-layout > div > p:last-child {
+    max-width: 42ch;
+    color: #bcccdc;
+}
+
+.method-steps {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, .18);
+    list-style: none;
+}
+
+.method-steps li {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .18);
+}
+
+.method-steps li > span {
+    color: #7ed4cb;
+    font: 600 .72rem/1.7 var(--mono);
+}
+
+.method-steps strong {
+    color: var(--white);
+    font-family: var(--display);
+    font-size: 1.25rem;
+}
+
+.method-steps p {
+    margin: .2rem 0 0;
+    color: #bcccdc;
+    font-size: .92rem;
+}
+
 @media (max-width: 850px) {
     nav a:not(.nav-cta) {
         display: none;
@@ -1193,7 +1368,8 @@ nav a {
     .project-archive-layout,
     .service-layout,
     .article-layout,
-    .role-layout {
+    .role-layout,
+    .asset-method-layout {
         grid-template-columns: 1fr;
     }
 
@@ -1276,8 +1452,15 @@ nav a {
     .featured-article,
     .experience-grid,
     .public-work-grid,
+    .asset-grid,
     .proof-grid {
         grid-template-columns: 1fr;
+    }
+
+    .asset-card,
+    .asset-card-featured {
+        grid-column: auto;
+        min-height: auto;
     }
 
     .proof-grid p,
