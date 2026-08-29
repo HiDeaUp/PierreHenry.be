@@ -12,6 +12,7 @@ Public evidence includes enterprise automation in regulated environments and pro
 
 ## Profile
 
+- [Professional profile](https://www.pierrehenry.be/profile.html): Human-readable identity, specialisations, selected engineering evidence, sector context, public work and credentials.
 - [LLM-readable professional profile](https://www.pierrehenry.be/profile.md): Concise facts, experience, role fit and public identity links.
 - [Professional homepage](https://www.pierrehenry.be/): Human-readable profile with structured data and delivery evidence.
 - [AI engineering](https://www.pierrehenry.be/ai-engineer.html): LLM applications, AI agents, RAG systems, workflow automation, evaluation and production-oriented engineering.

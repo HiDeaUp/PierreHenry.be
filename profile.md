@@ -54,6 +54,8 @@ Pierre-Henry is open to:
 
 Consulting can begin with a Production Risk & Delivery Sprint, continue through a larger scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
 
+Human-readable professional profile: https://www.pierrehenry.be/profile.html
+
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 
 Focused AI engineering profile: https://www.pierrehenry.be/ai-engineer.html
