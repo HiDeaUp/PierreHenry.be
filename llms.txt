@@ -33,6 +33,7 @@ Public evidence includes enterprise automation in regulated environments and pro
 - [Real-time GitHub activity](https://www.pierrehenry.be/realtime-github-activity.html): Public activity feed.
 - [YouTube](https://www.youtube.com/@pH7Programming/videos): Technical video channel.
 - [Udemy](https://www.udemy.com/user/pierresoria/): Instructor profile and published courses.
+- [Professional blog](https://blog.pierrehenry.be/): Software architecture, engineering leadership, product strategy and applied AI writing.
 - [Substack](https://substack.com/@pierrehenry): Long-form writing.
 - [Dev.to](https://dev.to/pierre): Developer articles.
 

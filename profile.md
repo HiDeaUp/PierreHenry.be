@@ -118,6 +118,7 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 - Open-source organisation: https://github.com/pH7Software
 - YouTube: https://www.youtube.com/@pH7Programming/videos
 - Udemy: https://www.udemy.com/user/pierresoria/
+- Professional blog: https://blog.pierrehenry.be/
 - Substack: https://substack.com/@pierrehenry
 - Dev.to: https://dev.to/pierre
 - X: https://x.com/phenrysay
