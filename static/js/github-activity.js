@@ -25,6 +25,13 @@ var GitHubActivity = (function() {
     },
     getMessageFor: function(data) {
       var p = data.payload;
+
+      // GitHub introduces new public event types over time. Keep the feed
+      // usable when a type is not yet represented by this preserved widget.
+      if (!templates[data.type]) {
+        return '';
+      }
+
       data.repoLink = methods.renderGitHubLink(data.repo.name);
       data.userGravatar = Mustache.render('<div class="gha-gravatar-user"><img src="{{url}}" class="gha-gravatar-small"></div>', { url: data.actor.avatar_url });
 
@@ -73,6 +80,10 @@ var GitHubActivity = (function() {
         if (p.issue.pull_request) {
           data.issueType = "pull request";
         }
+      }
+
+      if (p.discussion) {
+        data.discussionLink = methods.renderLink(p.discussion.html_url, data.repo.name + '#' + p.discussion.number);
       }
 
       // Retrieve the pull request link if this is a PullRequestEvent.
@@ -332,6 +343,7 @@ var templates = {
   CommitCommentEvent: 'commented on commit {{{commentLink}}}<br>{{{userGravatar}}}<small>{{comment}}</small>',
   CreateEvent: 'created {{payload.ref_type}} {{{branchLink}}}{{{repoLink}}}',
   DeleteEvent: 'deleted {{payload.ref_type}} {{payload.ref}} at {{{repoLink}}}',
+  DiscussionEvent: '{{payload.action}} discussion {{{discussionLink}}}<br>{{{userGravatar}}}<small>{{payload.discussion.title}}</small>',
   FollowEvent: 'started following {{{targetLink}}}',
   ForkEvent: 'forked {{{repoLink}}} to {{{forkLink}}}',
   GistEvent: '{{actionType}} {{{gistLink}}}',
@@ -355,6 +367,7 @@ icons = {
   CreateEvent_tag: 'tag-add',
   CreateEvent_branch: 'git-branch-create',
   DeleteEvent: 'repo-delete',
+  DiscussionEvent: 'comment-discussion',
   FollowEvent: 'person-follow',
   ForkEvent: 'repo-forked',
   GistEvent: 'gist',
