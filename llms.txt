@@ -1,12 +1,14 @@
 # Pierre-Henry Soria
 
-> Pierre-Henry Soria is an AI engineer, product-first senior software engineer and technology builder with 12 years in software delivery. He turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped, correctness-critical software. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
+> Pierre-Henry Soria is a senior software engineer specialising in production AI systems, agent orchestration and correctness-critical product delivery. With 12 years in software delivery, he turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped software. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
 
-Consulting can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit includes AI Engineer, AI Product Engineer, Senior or Lead Software Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+Consulting can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, AI Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
 
 Supported AI engineering evidence includes permission-scoped LLM application contracts, AI-agent orchestration, Model Context Protocol tools, source-cited retrieval, a beta framework-neutral RAG component, retrieval and structured-output evaluation, local model execution, private on-device AI, Postgres/pgvector data design and production-oriented AWS deployment infrastructure. The public evidence does not support claims of foundation-model training, fine-tuning, production RAG at scale or dedicated MLOps expertise.
 
 Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
+
+Interview and speaking topics include managing AI agents as software systems; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
 Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 

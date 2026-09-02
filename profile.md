@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is an AI engineer, product-first senior software engineer and technology builder with 12 years in software delivery. He turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped, correctness-critical software. Architecture, evaluation, security and human judgement remain explicit engineering responsibilities.
+Pierre-Henry Soria is a senior software engineer specialising in production AI systems, agent orchestration and correctness-critical product delivery. With 12 years in software delivery, he turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped software. Architecture, evaluation, security and human judgement remain explicit engineering responsibilities.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -8,9 +8,9 @@ Primary market: Wellington, New Zealand. Open for consulting, contract work and 
 
 Primary roles:
 
-- AI Engineer
-- AI Product Engineer
 - Senior or Lead Software Engineer
+- AI Product Engineer
+- AI Engineer
 - Agentic Systems Architect
 - Founding Engineer
 - Principal Software Engineer
@@ -60,6 +60,15 @@ Consulting can begin with a Production Risk & Delivery Sprint, continue through 
 - Keep AI permissions, source data, evaluation, fallback and human escalation visible.
 - Treat ownership, monitoring, failure states and recovery as part of product delivery.
 - Leave systems understandable through clear contracts, documentation and tested decisions.
+
+## Topics for interviews, panels and technical conversations
+
+- Managing AI agents as software systems, including tools, permissions, evaluation, fallback and human review.
+- Moving useful AI prototypes into production with attention to reliability, cost, latency, observability and operational ownership.
+- Deciding where AI should stop and human judgement should begin in consequential workflows.
+- Lessons about architecture, maintenance and trust from thirteen years and more than 11,000 commits on one open-source platform.
+
+Speaking and interview enquiries: pierre@pierrehenry.dev
 
 Human-readable professional profile: https://www.pierrehenry.be/profile.html
 
