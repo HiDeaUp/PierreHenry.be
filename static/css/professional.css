@@ -182,11 +182,19 @@ nav a {
 }
 
 .portfolio-home .hero {
-    padding-block: clamp(3.75rem, 5vw, 5rem);
+    min-height: min(640px, calc(100svh - 80px));
+    padding-block: clamp(2.75rem, 4vw, 4rem);
+    align-items: start;
 }
 
 .portfolio-home .hero h1 {
-    font-size: clamp(2.65rem, 4.8vw, 3.8rem);
+    max-width: 14ch;
+    font-size: clamp(2.65rem, 4.3vw, 3.5rem);
+}
+
+.portfolio-home .hero-summary {
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.05rem, 1.7vw, 1.2rem);
 }
 
 .hero::before {
@@ -1002,13 +1010,13 @@ nav a {
 
 /* Long-form writing and service pages */
 .subpage-hero {
-    padding-block: clamp(4.5rem, 9vw, 7.5rem);
+    padding-block: clamp(3rem, 6vw, 5rem);
     border-bottom: 1px solid var(--line);
 }
 
 .subpage-hero h1 {
-    max-width: 16ch;
-    font-size: clamp(2.6rem, 6vw, 4.8rem);
+    max-width: 18ch;
+    font-size: clamp(2.6rem, 5.2vw, 4.3rem);
 }
 
 .subpage-summary {
@@ -1018,7 +1026,7 @@ nav a {
 }
 
 .breadcrumb {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     color: var(--ink-soft);
     font-size: .84rem;
 }
@@ -1398,17 +1406,17 @@ nav a {
 }
 
 .profile-intro {
-    padding-block: clamp(2.5rem, 6vw, 5.5rem);
+    padding-block: clamp(2rem, 4vw, 3.8rem);
 }
 
 .profile-intro .breadcrumb {
-    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+    margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .profile-intro-grid {
     display: grid;
     grid-template-columns: minmax(250px, 340px) minmax(0, 1fr);
-    gap: clamp(3rem, 8vw, 7.5rem);
+    gap: clamp(3rem, 6vw, 5.5rem);
     align-items: center;
 }
 
@@ -1517,15 +1525,15 @@ nav a {
 }
 
 .profile-intro-copy h1 {
-    max-width: 11ch;
+    max-width: none;
     margin: .35rem 0 .8rem;
-    font-size: clamp(3.6rem, 7vw, 6.4rem);
-    line-height: .92;
+    font-size: clamp(3.4rem, 5.8vw, 5.2rem);
+    line-height: .96;
 }
 
 .profile-title {
-    max-width: 32ch;
-    margin-bottom: 1.6rem;
+    max-width: 42ch;
+    margin-bottom: 1.1rem;
     color: var(--accent-dark);
     font-family: var(--display);
     font-size: clamp(1.35rem, 2.3vw, 1.85rem);
@@ -1534,11 +1542,11 @@ nav a {
 }
 
 .profile-deck {
-    max-width: 34ch;
+    max-width: 44ch;
     margin-bottom: 1rem;
     color: var(--ink);
     font-family: var(--display);
-    font-size: clamp(1.4rem, 2.7vw, 2.05rem);
+    font-size: clamp(1.35rem, 2.3vw, 1.8rem);
     line-height: 1.35;
 }
 
