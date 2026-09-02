@@ -1,6 +1,6 @@
 # Engineering projects and consulting assets
 
-Pierre-Henry Soria is a product-first senior software engineer and consultant with 12 years of experience. His selected projects demonstrate product ownership, software architecture, private and on-device AI, long-term platform maintenance, mobile engineering, data systems and technical education.
+Pierre-Henry Soria is a senior software engineer specialising in production AI systems and correctness-critical product delivery, with 12 years of experience. His selected projects demonstrate product ownership, software architecture, private and on-device AI, long-term platform maintenance, mobile engineering, data systems and technical education.
 
 This is a curated evidence page. The complete historical archive remains available at https://github.com/pH-7.
 
