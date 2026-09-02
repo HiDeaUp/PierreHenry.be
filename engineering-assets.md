@@ -1,6 +1,6 @@
 # Engineering projects and consulting assets
 
-Pierre-Henry Soria is a senior software engineer specialising in production AI systems and correctness-critical product delivery, with 12 years of experience. His selected projects demonstrate product ownership, software architecture, private and on-device AI, long-term platform maintenance, mobile engineering, data systems and technical education.
+Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows, with 12 years of experience. His selected projects demonstrate how he handles permissions, evidence, fallback, human control and operational ownership alongside product architecture, private and on-device AI, long-term platform maintenance, mobile engineering and data systems.
 
 This is a curated evidence page. The complete historical archive remains available at https://github.com/pH-7.
 
@@ -63,7 +63,7 @@ This is a curated evidence page. The complete historical archive remains availab
 
 ## Consulting applications
 
-- AI product delivery for consequential workflows.
+- Production AI and agent orchestration for consequential workflows.
 - Private and on-device AI product engineering.
 - Incremental platform modernisation.
 - Health, wellness and food product engineering.

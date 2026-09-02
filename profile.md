@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a senior software engineer specialising in production AI systems, agent orchestration and correctness-critical product delivery. With 12 years in software delivery, he turns business and product problems into LLM applications, agent workflows, retrieval systems and shipped software. Architecture, evaluation, security and human judgement remain explicit engineering responsibilities.
+Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows. With 12 years in software delivery, he engineers what AI may access, what evidence it may use, how its behaviour is evaluated, when it must fall back and where human judgement remains decisive.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -26,6 +26,7 @@ Also relevant:
 
 ## Engineering focus
 
+- Production AI for workflows where silent failure can cost trust, time or revenue, or mislead a human decision
 - End-to-end product ownership, from problem definition to production software
 - Software architecture, backend systems, APIs and cloud infrastructure
 - Correctness-critical, user-facing and operational workflows
@@ -40,7 +41,7 @@ Also relevant:
 
 ## Ways to work together
 
-Pierre-Henry is open to:
+Pierre-Henry is most useful where an AI-enabled workflow must become valuable without making control or accountability ambiguous. He is open to:
 
 - a five-business-day Production Risk & Delivery Sprint, up to 15 hours, ending with a prioritised risk map, technical plan, a 60-minute handoff and, when useful, one bounded implementation or prototype;
 - larger scoped engineering delivery after the first bounded engagement;
@@ -56,8 +57,8 @@ Consulting can begin with a Production Risk & Delivery Sprint, continue through 
 
 ## Principles of practice
 
-- Start with the customer, risk, cost or operational consequence the technical decision needs to improve.
-- Keep AI permissions, source data, evaluation, fallback and human escalation visible.
+- Start with the workflow and the customer, risk, cost or operational consequence the technical decision needs to improve.
+- Keep AI permissions, source evidence, evaluation, deterministic fallback and human escalation visible.
 - Treat ownership, monitoring, failure states and recovery as part of product delivery.
 - Leave systems understandable through clear contracts, documentation and tested decisions.
 
@@ -80,9 +81,9 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Specialist consulting positions
 
-- AI agent orchestration for correctness-critical product delivery
+- Production AI and agent orchestration for consequential workflows
 - LLM application and RAG engineering for permission-sensitive products
-- AI-first product engineering for correctness-critical workflows
+- AI product engineering where silent failure can cost trust, time or revenue, or mislead a human decision
 - AI-first product engineering for MedTech, FoodTech and FinTech teams, grounded in health software, food-tech and regulated financial-services experience
 - Private and on-device AI product engineering
 - Health, wellness and food product engineering
