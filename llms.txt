@@ -34,6 +34,9 @@ Public evidence includes enterprise automation in regulated environments and pro
 - [YouTube](https://www.youtube.com/@pH7Programming/videos): Technical video channel.
 - [Udemy](https://www.udemy.com/user/pierresoria/): Instructor profile and published courses.
 - [Professional blog](https://blog.pierrehenry.be/): Software architecture, engineering leadership, product strategy and applied AI writing.
+- [Reliable web automation](https://blog.pierrehenry.be/blog/how-i-automate-web-tasks-without-building-fragile-scripts/): Choosing APIs, browser automation and operational safeguards without creating fragile maintenance work.
+- [Long-term platform ownership](https://blog.pierrehenry.be/blog/what-building-an-open-source-dating-platform-taught-me/): Architecture, trust, maintenance and product decisions learned from building an open-source platform.
+- [Staying close to users](https://blog.pierrehenry.be/blog/how-i-stay-close-to-users-without-chasing-every-request/): Combining support, interviews, usability tests and product evidence without treating every request as a feature.
 - [Substack](https://substack.com/@pierrehenry): Long-form writing.
 - [Dev.to](https://dev.to/pierre): Developer articles.
 

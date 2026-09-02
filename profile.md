@@ -54,6 +54,13 @@ Pierre-Henry is open to:
 
 Consulting can begin with a Production Risk & Delivery Sprint, continue through a larger scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
 
+## Principles of practice
+
+- Start with the customer, risk, cost or operational consequence the technical decision needs to improve.
+- Keep AI permissions, source data, evaluation, fallback and human escalation visible.
+- Treat ownership, monitoring, failure states and recovery as part of product delivery.
+- Leave systems understandable through clear contracts, documentation and tested decisions.
+
 Human-readable professional profile: https://www.pierrehenry.be/profile.html
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
@@ -119,6 +126,9 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 - YouTube: https://www.youtube.com/@pH7Programming/videos
 - Udemy: https://www.udemy.com/user/pierresoria/
 - Professional blog: https://blog.pierrehenry.be/
+- Reliable automation: https://blog.pierrehenry.be/blog/how-i-automate-web-tasks-without-building-fragile-scripts/
+- Long-term platform ownership: https://blog.pierrehenry.be/blog/what-building-an-open-source-dating-platform-taught-me/
+- Product judgement: https://blog.pierrehenry.be/blog/how-i-stay-close-to-users-without-chasing-every-request/
 - Substack: https://substack.com/@pierrehenry
 - Dev.to: https://dev.to/pierre
 - X: https://x.com/phenrysay
