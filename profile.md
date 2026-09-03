@@ -55,6 +55,17 @@ Pierre-Henry is most useful where an AI-enabled workflow must become valuable wi
 
 Consulting can begin with a Production Risk & Delivery Sprint, continue through a larger scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
 
+## Build, teach, advise, productise
+
+Pierre-Henry's public work is part of the engineering practice, not a separate personal-brand layer:
+
+- build real systems and maintain them long enough to understand the second-order effects;
+- publish code, articles, videos and courses that people can use without hiring him;
+- use the visible method to begin focused consulting around similar constraints;
+- when a problem repeats and the evidence is strong, turn the pattern into reusable software.
+
+Prospective clients can inspect the selected systems, technical articles, videos, open-source history and teaching record before starting a conversation.
+
 ## Principles of practice
 
 - Start with the workflow and the customer, risk, cost or operational consequence the technical decision needs to improve.

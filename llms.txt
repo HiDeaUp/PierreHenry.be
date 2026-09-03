@@ -12,6 +12,8 @@ Interview and speaking topics include managing AI agents as software systems; mo
 
 Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
+Public knowledge is part of the operating model: build real systems, publish useful methods, help teams with adjacent problems and turn repeated patterns into reusable software when the evidence supports it. Prospective clients can inspect Pierre-Henry's code, technical articles, videos, courses and long-term maintenance record before beginning a consulting conversation.
+
 ## Profile
 
 - [Professional profile](https://www.pierrehenry.be/profile.html): Human-readable identity, specialisations, selected engineering evidence, sector context, public work and credentials.
