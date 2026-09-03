@@ -75,7 +75,7 @@ Prospective clients can inspect the selected systems, technical articles, videos
 
 ## Topics for interviews, panels and technical conversations
 
-- Managing AI agents as software systems, including tools, permissions, evaluation, fallback and human review.
+- What changes when senior engineers manage AI agents, not only code: task boundaries, context, tools, permissions, review, verification and accountability.
 - Moving useful AI prototypes into production with attention to reliability, cost, latency, observability and operational ownership.
 - Deciding where AI should stop and human judgement should begin in consequential workflows.
 - Lessons about architecture, maintenance and trust from thirteen years and more than 11,000 commits on one open-source platform.

@@ -8,7 +8,7 @@ Supported AI engineering evidence includes permission-scoped LLM application con
 
 Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
 
-Interview and speaking topics include managing AI agents as software systems; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
+Interview and speaking topics include what changes when senior engineers manage AI agents, not only code; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
 Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
