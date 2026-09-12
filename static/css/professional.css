@@ -2023,17 +2023,34 @@ nav a {
 }
 
 @media (max-width: 850px) {
-    nav a:not(.nav-cta) {
-        display: none;
+    /* Let the full navigation wrap without covering content on small screens. */
+    .site-header {
+        position: static;
     }
 
-    .professional-profile-page nav {
-        gap: .7rem;
+    .nav-wrap {
+        flex-wrap: wrap;
+        gap: .5rem;
+        padding-block: .75rem;
     }
 
-    .professional-profile-page nav a[href="#evidence"],
-    .professional-profile-page nav a[href="./work-with-me.html"] {
+    .site-header nav {
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: .25rem;
+    }
+
+    .site-header nav a {
         display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: .45rem .2rem;
+        font-size: .825rem;
+    }
+
+    .site-header .nav-cta {
+        padding-inline: .4rem;
     }
 
     .profile-intro-grid,
@@ -2139,14 +2156,6 @@ nav a {
 @media (max-width: 620px) {
     :root {
         --page: min(100% - 28px, 1120px);
-    }
-
-    .nav-wrap {
-        min-height: 68px;
-    }
-
-    .wordmark > span:last-child {
-        display: none;
     }
 
     .hero {
@@ -2291,6 +2300,22 @@ nav a {
     .public-profile-list a {
         grid-template-columns: 1fr;
         gap: .35rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .site-header nav {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+
+    .site-header nav a {
+        grid-column: span 2;
+        justify-content: center;
+    }
+
+    .site-header nav a:nth-last-child(-n + 2) {
+        grid-column: span 3;
     }
 }
 
