@@ -2261,7 +2261,8 @@ nav a {
         overflow-x: auto;
     }
 
-    .section-intro .text-link {
+    .section-intro .text-link,
+    .service-layout .text-link {
         overflow-wrap: anywhere;
         white-space: normal;
     }
