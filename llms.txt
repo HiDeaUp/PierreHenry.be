@@ -4,6 +4,8 @@
 
 The strongest consulting fit is a consequential workflow where an AI-enabled system must become useful without making control or accountability ambiguous. Work can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, AI Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
 
+For businesses with repetitive digital operations, the focused AI Workflow Automation offer starts with an Opportunity Audit, continues with a fixed-scope Automation Sprint for one workflow, and can expand into an Automation System spanning related workflows. The work separates deterministic rules, bounded AI assistance and accountable human decisions. Value estimates use only client-supplied volume, time and cost information.
+
 Supported AI engineering evidence includes permission-scoped LLM application contracts, AI-agent orchestration, Model Context Protocol tools, source-cited retrieval, a beta framework-neutral RAG component, retrieval and structured-output evaluation, local model execution, private on-device AI, Postgres/pgvector data design and production-oriented AWS deployment infrastructure. The public evidence does not support claims of foundation-model training, fine-tuning, production RAG at scale or dedicated MLOps expertise.
 
 Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
@@ -23,6 +25,7 @@ Public knowledge is part of the operating model: build real systems, publish use
 - [Engineering projects and consulting assets](https://www.pierrehenry.be/engineering-assets.html): Curated public evidence for long-term platform work, private and on-device AI, product foundations, food-tech systems and technical education.
 - [Machine-readable engineering assets](https://www.pierrehenry.be/engineering-assets.md): Plain-text project evidence, limitations and consulting applications.
 - [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Production Risk & Delivery Sprint, scoped delivery, embedded senior engineering, long-term roles and contact details.
+- [AI workflow automation](https://www.pierrehenry.be/automation.html): Opportunity Audit, fixed-scope Automation Sprint, multi-workflow Automation System and an immediate local preliminary assessment.
 - [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
 ## Public technical work
