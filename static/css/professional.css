@@ -684,10 +684,10 @@ nav a {
 
 .project-archive-layout {
     display: grid;
-    grid-template-columns: .7fr 1.3fr;
-    gap: clamp(3rem, 8vw, 7rem);
+    grid-template-columns: minmax(0, 1fr);
+    gap: clamp(1.5rem, 3vw, 2rem);
     align-items: start;
-    padding-block: clamp(4.5rem, 9vw, 7rem);
+    padding-block: clamp(3.5rem, 7vw, 5rem);
 }
 
 .project-archive .eyebrow {
@@ -695,7 +695,7 @@ nav a {
 }
 
 .project-archive h2 {
-    max-width: 14ch;
+    max-width: none;
 }
 
 .archive-intro {
@@ -715,8 +715,8 @@ nav a {
     flex-direction: column;
     justify-content: center;
     gap: .35rem;
-    min-height: 6rem;
-    padding: 1.25rem;
+    min-height: 5.5rem;
+    padding: 1.25rem 1.5rem;
     border-right: 1px solid rgba(255, 255, 255, .2);
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     color: var(--white);
