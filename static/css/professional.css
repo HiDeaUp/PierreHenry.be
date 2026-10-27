@@ -738,7 +738,6 @@ nav a {
     color: #a9d4ce;
     font: .67rem/1.5 var(--mono);
     letter-spacing: .08em;
-    text-transform: uppercase;
 }
 
 .archive-links a:last-child {
