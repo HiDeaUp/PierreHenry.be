@@ -1,0 +1,35 @@
+/* Page-specific additions for the fixed-scope consulting offer. */
+.productised-offer .subpage-hero h1 { max-width: 17ch; }
+.offer-hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.offer-overview { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; padding-block: clamp(3.5rem, 7vw, 6rem); }
+.offer-overview-copy { max-width: 670px; }
+.offer-overview h2, .offer-section h2 { max-width: 20ch; }
+.offer-price-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: var(--shadow); }
+.offer-price-card .eyebrow { margin-bottom: .2rem; }
+.offer-price { font-family: var(--display); font-size: clamp(2.5rem, 4vw, 3.4rem); font-weight: 650; line-height: 1.15; margin-bottom: 0; }
+.offer-tax, .offer-fineprint, .offer-note { color: var(--ink-soft); font-size: .92rem; }
+.offer-price-card ul { padding-left: 1.3rem; margin: 1.5rem 0; }
+.offer-price-card li { margin-bottom: .35rem; }
+.offer-price-card .button { width: 100%; text-align: center; }
+.offer-fineprint { margin: 1rem 0 0; }
+.offer-section { padding-block: clamp(2.25rem, 5vw, 4rem); border-top: 1px solid var(--line); }
+.offer-cards { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem; margin: 2rem 0; }
+.offer-cards article { padding: clamp(1.1rem,2vw,1.65rem); background: var(--surface); border: 1px solid var(--line); border-radius: .85rem; }
+.offer-cards h3 { font-size: 1.18rem; }
+.offer-cards article p { color: var(--ink-soft); margin: 0; }
+.offer-deliverables { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.25rem; margin: 2rem 0; }
+.offer-deliverables > div { display: flex; gap: 1rem; padding: 1.3rem; border-left: 3px solid var(--accent); background: rgba(255,255,255,.65); }
+.offer-deliverables span { flex: 0 0 auto; color: var(--accent); font: 600 .82rem/1.6 var(--mono); }
+.offer-deliverables p { margin: 0; }
+.offer-steps { max-width: 790px; padding-left: 1.4rem; }
+.offer-steps li { padding-left: .4rem; margin-bottom: 1.1rem; }
+.offer-faq { max-width: 850px; border-top: 1px solid var(--line); }
+.offer-faq details { padding: 1.15rem 0; border-bottom: 1px solid var(--line); }
+.offer-faq summary { cursor: pointer; font-weight: 700; }
+.offer-faq details p { padding-top: .6rem; margin-bottom: 0; color: var(--ink-soft); }
+.offer-contact-email { font-size: .92rem; }
+.offer-contact-email a { text-decoration: underline; }
+@media (max-width: 760px) {
+  .offer-overview, .offer-cards, .offer-deliverables { grid-template-columns: 1fr; }
+  .offer-overview { padding-block: 2.5rem; }
+}
