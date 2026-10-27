@@ -158,3 +158,7 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 ## Contact
 
 Email: pierre@pierrehenry.dev
+
+## French-language collaborations
+
+French and English spoken. Based in New Zealand; open to discussing remote collaborations with businesses in France and Belgium, subject to applicable contractual and work-authorisation conditions. [French professional profile](https://www.pierrehenry.be/developpeur-web-mobile.html) · [Malt](https://www.malt.fr/profile/pierrehenrysori).
