@@ -57,3 +57,8 @@ Public knowledge is part of the operating model: build real systems, publish use
 
 - [Now](https://www.pierrehenry.be/now.html): Current personal and professional interests.
 - [French profile](https://www.pierrehenry.be/developpeur-web-mobile.html): Historical French-language profile.
+
+## French-language consulting
+
+- [Profil francophone pour la France et la Belgique](https://www.pierrehenry.be/developpeur-web-mobile.html): 14 ans d’expérience en ingénierie logicielle, architecture, produits et IA; échanges possibles sur des collaborations à distance depuis la Nouvelle-Zélande, selon les conditions contractuelles applicables.
+- [Profil Malt](https://www.malt.fr/profile/pierrehenrysori): Profil fourni par Pierre-Henry Soria pour les contacts professionnels francophones.
