@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows. With 12 years in software delivery, he engineers what AI may access, what evidence it may use, how its behaviour is evaluated, when it must fall back and where human judgement remains decisive.
+Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows. With 14 years in software delivery, he engineers what AI may access, what evidence it may use, how its behaviour is evaluated, when it must fall back and where human judgement remains decisive.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
