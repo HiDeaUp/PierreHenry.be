@@ -728,6 +728,21 @@ nav a {
     background: rgba(255, 255, 255, .08);
 }
 
+.archive-links .archive-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #c5dedb;
+}
+
+.archive-links .archive-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .archive-links strong {
     font-family: var(--display);
     font-size: 1.12rem;
