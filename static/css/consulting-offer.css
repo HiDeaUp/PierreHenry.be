@@ -6,7 +6,7 @@
 .offer-overview h2, .offer-section h2 { max-width: 20ch; }
 .offer-price-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: var(--shadow); }
 .offer-price-card .eyebrow { margin-bottom: .2rem; }
-.offer-price { font-family: var(--display); font-size: clamp(2.5rem, 4vw, 3.4rem); font-weight: 650; line-height: 1.15; margin-bottom: 0; }
+.offer-quote-title { font-size: clamp(1.8rem, 2.8vw, 2.5rem); line-height: 1.15; max-width: 100%; margin: .35rem 0 .75rem; }
 .offer-tax, .offer-fineprint, .offer-note { color: var(--ink-soft); font-size: .92rem; }
 .offer-price-card ul { padding-left: 1.3rem; margin: 1.5rem 0; }
 .offer-price-card li { margin-bottom: .35rem; }
