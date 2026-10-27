@@ -14,14 +14,27 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>GitHub Activity | Pierre-Henry Soria, Software Engineer</title>
-    <meta name="description" content="Real-time public GitHub activity from Pierre-Henry Soria, a senior software engineer and open-source creator." />
+    <meta name="description" content="Recent public GitHub activity by Pierre-Henry Soria, including open-source work and project contributions." />
     <meta name="author" content="Pierre-Henry Soria" />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="https://www.pierrehenry.be/realtime-github-activity.html" />
     <link rel="describedby" href="https://www.pierrehenry.be/llms.txt" />
-    <link rel="stylesheet" href="./static/css/common.css" />
+    <link rel="stylesheet" href="./static/css/professional.css?v=20260904-2" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css" />
     <link rel="stylesheet" href="./static/css/github-activity.css" />
+    <style>
+        .activity-content { padding-block: clamp(2.5rem, 6vw, 5rem); }
+        .activity-panel { padding: clamp(1rem, 3vw, 2rem); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+        #github-feed { min-height: 9rem; }
+        .activity-panel .gha-feed { height: auto; overflow: visible; border: 0; background: transparent; color: var(--ink); font-family: inherit; }
+        .activity-panel .gha-feed a { color: var(--accent); overflow-wrap: anywhere; }
+        .activity-panel .gha-feed a:hover { color: var(--accent-dark); }
+        .activity-panel .gha-feed .gha-header, .activity-panel .gha-feed .gha-footer { position: static; width: auto; height: auto; background: transparent; }
+        .activity-panel .gha-feed .gha-activity:last-child { padding-bottom: 1rem; }
+        .activity-panel .gha-feed .gha-repo, .activity-panel .gha-feed .gha-activity { overflow-wrap: anywhere; }
+        .activity-panel .gha-feed img { max-width: 100%; }
+        @media (max-width: 640px) { .activity-panel { padding: 1rem; } .activity-panel .gha-feed .gha-activity-icon { display: none; } }
+    </style>
     <link rel="icon" type="image/svg+xml" sizes="any" href="./static/img/favicon.svg" />
     <link rel="icon" type="image/png" sizes="48x48" href="./favicon-48.png" />
     <link rel="icon" href="./favicon.ico" />
@@ -37,65 +50,68 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://www.pierrehenry.be/static/img/og-pierre-henry-technical.png" />
 </head>
-<body id="english">
-    <div id="container">
-        <header>
-            <h1>My Real-Time GitHub Activity 😊</h1>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <div class="page-width nav-wrap">
+            <a class="wordmark" href="./index.html" aria-label="Pierre-Henry Soria, home">
+                <span aria-hidden="true">PH</span>
+                <span>Pierre-Henry Soria</span>
+            </a>
+            <nav aria-label="Primary navigation">
+                <a href="./index.html#expertise">Expertise</a>
+                <a href="./index.html#experience">Experience</a>
+                <a href="./engineering-assets.html" aria-current="page">Projects</a>
+                <a href="./work-with-me.html">Consulting</a>
+                <a class="nav-cta" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <header class="subpage-hero asset-page-hero">
+            <div class="page-width">
+                <p class="breadcrumb"><a href="./index.html">Home</a> <span aria-hidden="true">/</span> <a href="./engineering-assets.html#flagships">Projects</a> <span aria-hidden="true">/</span> GitHub activity</p>
+                <p class="eyebrow">Open source · Public contributions · GitHub</p>
+                <h1>Recent GitHub activity.</h1>
+                <p class="subpage-summary">A view of my recent public GitHub events. For the full source code and project history, explore my repositories and selected engineering work.</p>
+                <div class="button-row">
+                    <a class="button button-primary" href="https://github.com/pH-7" target="_blank" rel="me noopener">Explore my GitHub profile</a>
+                    <a class="button button-secondary" href="./engineering-assets.html#flagships">Selected engineering projects</a>
+                </div>
+            </div>
         </header>
 
-        <main>
-            <div id="github-feed"></div>
-        </main>
-
-        <footer>
-            <p>
-                <span role="img" aria-label="Speak to me">🔈</span> Speak with me at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#112;&#104;&#55;&#46;&#109;&#101;" rel="nofollow"><i>hi</i>@<abbr title="Pierre-Henry">PH</abbr><abbr title="pH Neutral">7</abbr>.<i>me</i></a>
-            </p>
-
-            <div class="social-icon center">
-                <a href="https://github.com/pH-7" target="_blank" rel="noopener">
-                    <img src="static/img/icon/github.svg" alt="GitHub Profile">
-                </a>
-                <a href="https://www.linkedin.com/in/ph7enry/" target="_blank" rel="noopener">
-                    <img src="static/img/icon/linkedin.svg" alt="LinkedIn Profile">
-                </a>
-                <a href="https://x.com/phenrysay" target="_blank" rel="noopener">
-                    <img src="static/img/icon/x.svg" alt="X Account">
-                </a>
-                <a href="https://dev.to/pierre" target="_blank" rel="noopener">
-                    <img src="static/img/icon/dev.svg" alt="Dev Profile">
-                </a>
-                <a href="https://substack.com/@pierrehenry" target="_blank" rel="noopener">
-                    <img src="static/img/icon/substack.svg" alt="Substack Account">
-                </a>
-                <a href="https://unsplash.com/@pierrehenry" target="_blank" rel="noopener">
-                    <img src="static/img/icon/unsplash.svg" alt="Unsplash Page">
-                </a>
-                <a href="https://www.goodreads.com/phenry" target="_blank" rel="noopener">
-                    <img src="static/img/icon/goodreads.svg" alt="Goodreads Profile">
-                </a>
+        <section class="section page-width activity-content" aria-labelledby="activity-title">
+            <div class="section-heading">
+                <p class="eyebrow">Public activity feed</p>
+                <h2 id="activity-title">Recent contributions and updates.</h2>
+                <p class="section-intro">This feed shows public events available through GitHub. It is not a complete record of private work or all contributions.</p>
             </div>
+            <div class="activity-panel">
+                <div id="github-feed" aria-live="polite"><p>Loading public GitHub activity…</p></div>
+            </div>
+        </section>
 
-            <p>
-                Thanks for stopping by! 😅
-            </p>
-            <p class="italic">
-                <span id="copyrightYear"></span> Coded with LOTS of <span role="img" aria-label="love">❤️</span> by <a
-                    href="https://ph7.me">Pierre-Henry Soria</a> :)
-            </p>
-            <p>
-                <a hreflang="en" href="https://www.pierrehenry.be" title="Homepage">
-                    Return to Homepage
-                </a> ∙
-                <a hreflang="en" href="now.html" title="What I'm Doing Now">
-                    What I'm Doing Now
-                </a> ∙
-                <a hreflang="fr-be" href="https://www.pierrehenry.be/developpeur-web-mobile.html" title="French version">
-                    <span role="img" aria-label="French version">🇫🇷</span> Français
-                </a>
-            </p>
-        </footer>
-    </div>
+        <section class="contact-band" id="contact" aria-labelledby="contact-title">
+            <div class="page-width contact-inner">
+                <div>
+                    <p class="eyebrow eyebrow-light">Start with the problem</p>
+                    <h2 id="contact-title">Have an engineering challenge worth discussing?</h2>
+                    <p>Share the problem, the constraints and what you need to improve.</p>
+                </div>
+                <a class="button button-light" href="mailto:pierre@pierrehenry.dev?subject=Engineering%20project%20or%20consulting%20conversation">Email pierre@pierrehenry.dev</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-width footer-grid">
+            <p><strong>Pierre-Henry Soria</strong><br />Senior Software Engineer · Consultant · Software Architect</p>
+            <div class="footer-links"><a href="./index.html">Home</a><a href="./profile.html">Profile</a><a href="./work-with-me.html">Consulting</a><a href="https://github.com/pH-7" target="_blank" rel="me noopener">GitHub</a><a href="https://www.linkedin.com/in/ph7enry/" target="_blank" rel="me noopener">LinkedIn</a></div>
+            <p class="footer-note">© <span id="copyrightYear"></span> Pierre-Henry Soria</p>
+        </div>
+    </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
     <script src="./static/js/github-activity.js?v=20260912.2"></script>
     <script>
@@ -105,6 +121,6 @@
             limit: 50
         });
     </script>
-    <script>document.getElementById('copyrightYear').innerHTML=(new Date).getFullYear()</script>
+    <script>document.getElementById('copyrightYear').textContent = new Date().getFullYear()</script>
 </body>
 </html>
