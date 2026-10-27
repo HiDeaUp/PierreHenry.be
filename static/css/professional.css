@@ -715,8 +715,8 @@ nav a {
     flex-direction: column;
     justify-content: center;
     gap: .35rem;
-    min-height: 5.5rem;
-    padding: 1.25rem 1.5rem;
+    min-height: 4.75rem;
+    padding: 1rem 1.3rem;
     border-right: 1px solid rgba(255, 255, 255, .2);
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     color: var(--white);
@@ -736,8 +736,8 @@ nav a {
 
 .archive-links small {
     color: #a9d4ce;
-    font: .67rem/1.5 var(--mono);
-    letter-spacing: .08em;
+    font: .78rem/1.45 var(--sans);
+    letter-spacing: normal;
 }
 
 .archive-links a:last-child {
