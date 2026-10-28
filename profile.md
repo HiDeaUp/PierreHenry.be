@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows. With 14 years in software delivery, he engineers what AI may access, what evidence it may use, how its behaviour is evaluated, when it must fall back and where human judgement remains decisive.
+Pierre-Henry Soria is a New Zealand-based senior software engineer and software engineering consultant with 14 years of experience. He helps businesses make better technical decisions, build reliable software products, improve existing systems and reduce delivery risk. His practice spans software architecture, full-stack and backend development, cloud infrastructure, technical leadership and AI product engineering, including permission-scoped agents, retrieval systems, evaluation and human review.
 
 Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -8,6 +8,7 @@ Primary market: Wellington, New Zealand. Open for consulting, contract work and 
 
 Primary roles:
 
+- Software Engineering Consultant and Technical Consultant
 - Senior or Lead Software Engineer
 - AI Product Engineer
 - AI Engineer
@@ -41,7 +42,7 @@ Also relevant:
 
 ## Ways to work together
 
-Pierre-Henry is most useful where an AI-enabled workflow must become valuable without making control or accountability ambiguous. He is open to:
+Pierre-Henry is most useful when a product or engineering problem needs experienced judgement and hands-on ownership. Typical problems include software architecture, production reliability, system modernisation, early product delivery, AI integration and technical leadership. He is open to:
 
 - a five-business-day Production Risk & Delivery Sprint, up to 15 hours, ending with a prioritised risk map, technical plan, a 60-minute handoff and, when useful, one bounded implementation or prototype;
 - larger scoped engineering delivery after the first bounded engagement;
