@@ -1,8 +1,8 @@
 # Pierre-Henry Soria
 
-> Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows. With 14 years in software delivery, he engineers what AI may access, what evidence it may use, how its behaviour is evaluated, when it must fall back and where human judgement remains decisive. His sector experience spans health technology, food technology, financial services and enterprise software. His primary market is Wellington, New Zealand. He is open to consulting across New Zealand, Australia and remote teams.
+> Pierre-Henry Soria is a senior software engineer, software architecture and product engineering consultant, and hands-on technical leader with 14 years of software delivery experience. Based in New Zealand, with Wellington as his primary market, he helps companies solve difficult engineering problems, improve reliability, build production software and make sound technical decisions. His work spans backend and full-stack engineering, cloud infrastructure, AI product engineering and technical leadership across health technology, food technology, financial services and enterprise SaaS. He is open to consulting, contract engagements and selected senior roles across New Zealand, Australia and remote teams.
 
-The strongest consulting fit is a consequential workflow where an AI-enabled system must become useful without making control or accountability ambiguous. Work can begin with a five-business-day Production Risk & Delivery Sprint, followed by larger scoped delivery or embedded senior engineering when justified. Pierre-Henry's role fit includes Senior or Lead Software Engineer, AI Product Engineer, AI Engineer, Agentic Systems Architect, Founding Engineer, Principal Software Engineer, Software Architect and Solution Architect.
+Strong consulting fits include software architecture and modernisation, unreliable production systems, new product development, complex integrations, technical delivery risks, AI product engineering and embedded senior technical leadership. His specialised AI work focuses on consequential workflows where permissions, evidence, evaluation, fallback and human judgement matter. Engagements may start with a five-business-day Production Risk & Delivery Sprint, followed by scoped product engineering or embedded senior engineering. Relevant roles include Senior or Lead Software Engineer, Software Engineering Consultant, Software Architect, Founding or Principal Engineer, AI Product Engineer and Solution Architect.
 
 For businesses with repetitive digital operations, the focused AI Workflow Automation offer starts with an Opportunity Audit, continues with a fixed-scope Automation Sprint for one workflow, and can expand into an Automation System spanning related workflows. The work separates deterministic rules, bounded AI assistance and accountable human decisions. Value estimates use only client-supplied volume, time and cost information.
 
@@ -56,7 +56,7 @@ Public knowledge is part of the operating model: build real systems, publish use
 ## Optional
 
 - [Now](https://www.pierrehenry.be/now.html): Current personal and professional interests.
-- [French profile](https://www.pierrehenry.be/developpeur-web-mobile.html): Historical French-language profile.
+- [French consulting profile](https://www.pierrehenry.be/developpeur-web-mobile.html): Current French-language technical consulting profile for France and Belgium.
 
 ## French-language consulting
 
