@@ -23,21 +23,17 @@ Repo GitHub : https://github.com/HiDeaUp/PierreHenry.be
     <link rel="icon" type="image/png" sizes="48x48" href="./favicon-48.png" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <link rel="stylesheet" href="./static/css/common.css" />
+    <link rel="stylesheet" href="./static/css/professional.css?v=20261028" />
     <style>
-      /* French profile: match the main site's typography and palette without changing layout. */
-      body#french { margin: 0; opacity: 1; background: #f7f5ef; color: #102a43; font-family: "Avenir Next", Avenir, system-ui, -apple-system, sans-serif; }
-      #french #container { box-sizing: border-box; width: min(920px, calc(100% - 32px)); margin: 36px auto; padding: clamp(20px, 4vw, 48px); text-align: left; line-height: 1.75; background: #fffdf8; border: 1px solid #d8ddd7; border-radius: 20px; box-shadow: 0 18px 55px rgba(16,42,67,.08); }
-      #french header { margin-bottom: 28px; text-shadow: none; }
-      #french header h1 { margin: 0 0 12px; text-transform: none; font: 600 clamp(2rem, 5vw, 3.2rem)/1.15 Georgia, serif; }
-      #french header h2 { margin: 0; color: #486581; font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 500; line-height: 1.5; }
-      #french #container a { color: #176b68; text-underline-offset: 3px; }
-      #french #container a:focus-visible { outline: 3px solid #ca624a; outline-offset: 3px; }
-      #french .french-contact a:first-child { display: inline-block; margin-bottom: 8px; padding: 7px 14px; border-radius: 8px; background: #176b68; color: #fff; text-decoration: none; font-weight: 600; }
-      #french hr { border: 0; border-top: 1px solid #d8ddd7; margin: 32px 0; }
-      #french footer { margin-top: 48px; border-top: 1px solid #d8ddd7; font-size: .85rem; }
-      #french footer, #french footer a { color: #486581 !important; }
-      @media (max-width: 600px) { #french #container { margin: 12px auto; } #french .french-contact a { display: inline-block; margin-block: 4px; } }
+      .french-content { padding-block: clamp(3rem, 6vw, 5rem); }
+      .french-content article { max-width: 78ch; }
+      .french-content article > p { margin-bottom: 1.35rem; }
+      .french-content article h2 { max-width: none; font-size: clamp(1.75rem, 3vw, 2.4rem); }
+      .french-contact { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+      .french-contact a { color: var(--accent); }
+      .french-contact a:first-child { display: inline-flex; padding: .5rem .9rem; border-radius: 999px; color: var(--white); background: var(--accent); text-decoration: none; }
+      .french-content hr { max-width: 78ch; margin: 2.3rem 0; border: 0; border-top: 1px solid var(--line); }
+      .french-content section + section { margin-top: 2rem; }
     </style>
 
     <meta property="og:type" content="profile" />
@@ -60,14 +56,37 @@ Repo GitHub : https://github.com/HiDeaUp/PierreHenry.be
 
 </head>
 
-<body id="french">
-    <div id="container">
-        <header>
-            <h1>Pierre-Henry Soria</h1>
-            <h2>Conseil technique | Architecture logicielle | Produit et IA</h2>
+<body class="french-profile-page">
+    <a class="skip-link" href="#main-content">Aller au contenu</a>
+    <header class="site-header">
+        <div class="page-width nav-wrap">
+            <a class="wordmark" href="./index.html" aria-label="Pierre-Henry Soria, accueil"><span aria-hidden="true">PH</span><span>Pierre-Henry Soria</span></a>
+            <nav aria-label="Navigation principale">
+                <a href="./index.html">Accueil</a>
+                <a href="./index.html#experience">Expérience</a>
+                <a href="./engineering-assets.html">Projets</a>
+                <a href="./work-with-me.html">Conseil</a>
+                <a class="nav-cta" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <header class="subpage-hero">
+            <div class="page-width">
+                <p class="breadcrumb"><a href="./index.html">Accueil</a> <span aria-hidden="true">/</span> Conseil informatique en français</p>
+                <p class="eyebrow">Architecture logicielle · Produit · Conseil technique · IA</p>
+                <h1>Consultant informatique senior et ingénieur logiciel.</h1>
+                <p class="subpage-summary">Pierre-Henry Soria. 14 ans d’expérience en ingénierie logicielle et développement produit. Basé en Nouvelle-Zélande, ouvert aux collaborations à distance avec des entreprises françaises et belges.</p>
+                <div class="button-row">
+                    <a class="button button-primary" href="https://www.malt.fr/profile/pierrehenrysori" target="_blank" rel="me noopener">Me contacter sur Malt</a>
+                    <a class="button button-secondary" href="mailto:pierre@pierrehenry.dev?subject=Projet%20de%20conseil%20technique">Parlons de votre projet</a>
+                </div>
+            </div>
         </header>
 
-        <main>
+        <div class="page-width french-content">
+
         <section>
             <article>
                 <p>
@@ -106,49 +125,33 @@ Repo GitHub : https://github.com/HiDeaUp/PierreHenry.be
         </section>
 
         <hr />
-        </main>
-
-        <footer>
-            <p>
-                <span role="img" aria-label="Parler avec moi">🔈</span> Discuter avec moi : <a
-                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#112;&#104;&#55;&#46;&#109;&#101;"
-                    rel="nofollow"><i>hi</i>@<abbr title="Pierre-Henry">PH</abbr><abbr
-                        title="pH neutre">7</abbr>.<i>me</i></a>
-            </p>
-
-            <div class="social-icon center">
-                <a href="https://github.com/pH-7" target="_blank" rel="noopener">
-                    <img src="static/img/icon/github.svg" alt="Profil GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/ph7enry/" target="_blank" rel="noopener">
-                    <img src="static/img/icon/linkedin.svg" alt="Profil LinkedIn">
-                </a>
-                <a href="https://x.com/phenrysay" target="_blank" rel="noopener">
-                    <img src="static/img/icon/x.svg" alt="Compte X">
-                </a>
-                <a href="https://www.youtube.com/@pH7Programming?sub_confirmation=1" target="_blank" rel="noopener">
-                    <img src="static/img/icon/youtube.svg" alt="Chaîne YouTube Tech Ingénieur">
-                </a>
-                <a href="https://dev.to/pierre" target="_blank" rel="noopener">
-                    <img src="static/img/icon/dev.svg" alt="Profil Dev.to">
-                </a>
-                <a href="https://substack.com/@pierrehenry" target="_blank" rel="noopener">
-                    <img src="static/img/icon/substack.svg" alt="Compte Substack">
-                </a>
+        
+        </div>
+        <section class="contact-band" id="contact" aria-labelledby="contact-title">
+            <div class="page-width contact-inner">
+                <div>
+                    <p class="eyebrow eyebrow-light">Échangeons sur votre projet</p>
+                    <h2 id="contact-title">Un problème technique important à résoudre ?</h2>
+                    <p>Parlez-moi de votre produit, de vos contraintes et de ce que vous souhaitez améliorer.</p>
+                </div>
+                <a class="button button-light" href="mailto:pierre@pierrehenry.dev?subject=Projet%20de%20conseil%20technique">Discuter de votre projet</a>
             </div>
+        </section>
+    </main>
 
-            <p class="italic">
-                <span id="annee-droits-auteur"></span> Créé par <a href="https://ph7.me">Pierre-Henry Soria</a>.
-            </p>
-
-            <p>
-                <a hreflang="en" href="https://www.pierrehenry.be" title="Version anglaise">
-                    <span role="img" aria-label="Version anglaise">🇬🇧</span> English
-                </a>
-            </p>
-        </footer>
-    </div>
-    <script>document.getElementById('annee-droits-auteur').innerHTML = (new Date).getFullYear()</script>
+    <footer class="site-footer">
+        <div class="page-width footer-grid">
+            <p><strong>Pierre-Henry Soria</strong><br />Ingénieur logiciel senior · Consultant technique · Architecte logiciel</p>
+            <div class="footer-links">
+                <a href="./index.html" hreflang="en-nz">Accueil anglais</a>
+                <a href="./profile.html" hreflang="en-nz">Profil</a>
+                <a href="./work-with-me.html" hreflang="en-nz">Conseil</a>
+                <a href="https://github.com/pH-7" target="_blank" rel="me noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/ph7enry/" target="_blank" rel="me noopener">LinkedIn</a>
+            </div>
+            <p class="footer-note">© <span id="copyrightYear"></span> Pierre-Henry Soria</p>
+        </div>
+    </footer>
+    <script>document.getElementById('copyrightYear').textContent = new Date().getFullYear()</script>
 </body>
-
 </html>
