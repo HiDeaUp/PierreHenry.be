@@ -22,11 +22,9 @@ html {
 body.now-page {
   min-height: 100vh;
   margin: 0;
-  padding: clamp(1rem, 3vw, 3rem);
+  padding: 0;
   color: var(--now-ink);
-  background:
-    linear-gradient(135deg, rgba(8, 30, 48, .76), rgba(23, 107, 104, .36)),
-    url("../img/background.jpg") center / cover fixed;
+  background: var(--paper);
   font-family: "Avenir Next", Avenir, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.7;
@@ -78,16 +76,10 @@ body.now-page {
 
 .now-page #container {
   position: relative;
-  width: min(1160px, 100%);
+  width: min(1120px, 100%);
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .55);
-  border-radius: 2.5rem .75rem 2.5rem .75rem;
-  background:
-    linear-gradient(rgba(16, 42, 67, .035) 1px, transparent 1px),
-    var(--now-paper);
-  background-size: 100% 2rem;
-  box-shadow: 0 32px 90px rgba(4, 23, 38, .32);
+  background: var(--paper);
 }
 
 .now-header {
@@ -95,10 +87,9 @@ body.now-page {
   isolation: isolate;
   padding: clamp(3rem, 8vw, 7rem) clamp(1.4rem, 7vw, 6rem) clamp(2.75rem, 6vw, 5rem);
   overflow: hidden;
-  color: #fffdf8;
-  background:
-    linear-gradient(115deg, rgba(11, 41, 62, .97), rgba(13, 71, 71, .91)),
-    url("../img/background.jpg") center 45% / cover;
+  color: var(--ink);
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
   text-align: left;
 }
 
@@ -108,7 +99,7 @@ body.now-page {
   right: 1.25rem;
   width: clamp(5rem, 10vw, 8rem);
   aspect-ratio: 1;
-  border: 1px solid rgba(255, 255, 255, .45);
+  border: 1px solid rgba(23, 107, 104, .2);
   border-radius: 50%;
   box-shadow:
     0 0 0 1rem rgba(255, 255, 255, .05),
@@ -147,7 +138,7 @@ body.now-page {
 .now-header h2 {
   max-width: 34ch;
   margin-top: 1rem;
-  color: rgba(255, 253, 248, .78);
+  color: var(--ink-soft);
   font: 500 clamp(.78rem, 1.5vw, .95rem)/1.5 var(--now-mono);
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -372,12 +363,7 @@ body.now-page {
 
 @media (max-width: 700px) {
   body.now-page {
-    padding: .6rem;
-    background-attachment: scroll;
-  }
-
-  .now-page #container {
-    border-radius: 1.5rem .4rem 1.5rem .4rem;
+    padding: 0;
   }
 
   .now-header {
@@ -432,3 +418,9 @@ body.now-page {
     transition: none;
   }
 }
+
+/* Shared site chrome remains identical to the main professional pages. */
+.now-page .site-header a { color: var(--ink); }
+.now-page .site-header a:hover { color: var(--accent); }
+.now-page .site-footer a { color: var(--white); }
+.now-page .site-footer a:hover { color: #8fd0c8; }
