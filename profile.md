@@ -33,8 +33,8 @@ Also relevant:
 - Correctness-critical, user-facing and operational workflows
 - TypeScript, Node.js, React, AWS, PHP, Symfony, JavaScript and PostgreSQL
 - LLM applications, AI-agent architecture and workflow automation using Model Context Protocol tools and reusable skills
-- Retrieval-augmented generation, semantic search, source attribution and retrieval evaluation through ToucanDB and recent product work
-- API integrations, production-oriented AWS deployment infrastructure and Postgres/pgvector data design
+- Retrieval-augmented generation, semantic search, source attribution and retrieval evaluation demonstrated through public ToucanDB work
+- API integration, cloud deployment and PostgreSQL design experience, without disclosure of employer implementations
 - Retrieval and structured-output evaluation, including citation checks, latency measurement and deterministic fallbacks
 - Technical leadership, teaching, documentation and engineering quality
 - Reliability, scalability, software modernisation and technical-debt decisions
@@ -106,18 +106,18 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Selected experience
 
-- Financial services: built enterprise decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
-- Food tech: improved online-ordering reliability at Zambrero through infrastructure, caching, query, data-mapping and database-index work.
-- Enterprise SaaS: worked at Sine and Honeywell across frontend, backend and core operational systems using Node.js, React, TypeScript and AWS, with responsibility for test-automation practices and teaching.
-- Health software: built user-facing platforms for doctors, patients and pharmacies at Updoc.
-- New Zealand product engineering: built web applications, APIs and commerce workflows at Eyemagnet using PHP, Symfony, JavaScript and PostgreSQL.
-- Founder: created a healthy-food product across mobile applications and backend services.
+- Financial services: worked as a senior software engineer at ANZ in a regulated banking environment.
+- Food tech: worked on food ordering software at Zambrero.
+- Enterprise SaaS: worked on enterprise software at Sine/Honeywell, with experience in product engineering and collaborative development.
+- Health software: worked on telehealth products at Updoc, then digital health software at FIG Health in Sydney.
+- New Zealand product engineering: worked on web software and product development at Eyemagnet.
+- Founder: built Lifyzer across food data, backend services and mobile applications; also created the MealSnap food-analysis app.
 
 ## AI engineering evidence
 
-- Recent product work includes permission-scoped LLM application contracts, API-filtered retrieval and actions, source-citation checks, rate limits and human escalation.
-- Built AWS deployment infrastructure for isolated AI runtimes using ECS, Bedrock-scoped IAM, Secrets Manager and health-checked CI/CD. This is implemented infrastructure, not a claim that every runtime is currently serving production traffic.
-- Designed Postgres/pgvector document storage and vector indexes. This is not presented as a verified production-scale RAG deployment.
+- My approach to AI engineering emphasises access boundaries, evaluation, source evidence and human oversight.
+- General engineering capabilities include AWS, deployment automation and cloud application design.
+- Experience with PostgreSQL and vector search; publicly inspectable retrieval examples are linked below.
 - ToucanDB is a beta, framework-neutral RAG and vector-retrieval component with durable SQLite storage, rebuildable FAISS indexes, namespace isolation, source attribution, encryption boundaries and reviewed retrieval evaluation.
 - pH7Console demonstrates local model execution and user-controlled workspace access. SucceedAI demonstrates private, on-device AI with explicit user control and safe replacement behaviour.
 - The wider production foundation includes APIs, PostgreSQL, AWS, Terraform, Docker, CI/CD, test automation, mobile delivery and operational ownership.

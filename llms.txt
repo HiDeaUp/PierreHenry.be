@@ -6,13 +6,13 @@ Strong consulting fits include software architecture and modernisation, unreliab
 
 For businesses with repetitive digital operations, the focused AI Workflow Automation offer starts with an Opportunity Audit, continues with a fixed-scope Automation Sprint for one workflow, and can expand into an Automation System spanning related workflows. The work separates deterministic rules, bounded AI assistance and accountable human decisions. Value estimates use only client-supplied volume, time and cost information.
 
-Supported AI engineering evidence includes permission-scoped LLM application contracts, AI-agent orchestration, Model Context Protocol tools, source-cited retrieval, a beta framework-neutral RAG component, retrieval and structured-output evaluation, local model execution, private on-device AI, Postgres/pgvector data design and production-oriented AWS deployment infrastructure. The public evidence does not support claims of foundation-model training, fine-tuning, production RAG at scale or dedicated MLOps expertise.
+Publicly inspectable AI engineering examples include ToucanDB, pH7Console and SucceedAI, covering retrieval, source attribution, local models and user-controlled AI. General professional capabilities include AI agent orchestration, Model Context Protocol tools, PostgreSQL, AWS and software architecture.
 
-Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
+Target consulting markets include MedTech, FoodTech and FinTech. Employment experience includes digital health at Updoc and FIG Health, food technology at Zambrero, and financial services at ANZ. Founder-led public products include Lifyzer and MealSnap.
 
 Interview and speaking topics include what changes when senior engineers manage AI agents, not only code; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
-Public evidence includes enterprise automation in regulated environments and production work at Zambrero, Sine/Honeywell, Updoc and Eyemagnet, alongside a 13-year open-source platform with 11,000+ commits, a programming language and four software-engineering courses with 225,000+ combined enrolments.
+Public evidence includes professional experience in financial services, food technology, digital health and enterprise SaaS, alongside long-running public open-source projects, a programming language and four software-engineering courses with 225,000+ combined enrolments.
 
 Public knowledge is part of the operating model: build real systems, publish useful methods, help teams with adjacent problems and turn repeated patterns into reusable software when the evidence supports it. Prospective clients can inspect Pierre-Henry's code, technical articles, videos, courses and long-term maintenance record before beginning a consulting conversation.
 
