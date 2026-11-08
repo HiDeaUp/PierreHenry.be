@@ -87,6 +87,8 @@ Human-readable professional profile: https://www.pierrehenry.be/profile.html
 
 Focused healthtech consulting profile: https://www.pierrehenry.be/healthtech-ai-product-engineer.html
 
+FoodTech product engineering and reliability: https://www.pierrehenry.be/foodtech-product-engineer.html
+
 Focused AI engineering profile: https://www.pierrehenry.be/ai-engineer.html
 
 Engineering projects and consulting assets: https://www.pierrehenry.be/engineering-assets.html
