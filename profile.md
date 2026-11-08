@@ -106,11 +106,11 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Selected experience
 
-- Financial services: worked as a senior software engineer at ANZ in a regulated banking environment.
-- Food tech: worked on food ordering software at Zambrero.
-- Enterprise SaaS: worked on enterprise software at Sine/Honeywell, with experience in product engineering and collaborative development.
-- Health software: worked on telehealth products at Updoc, then digital health software at FIG Health in Sydney.
-- New Zealand product engineering: worked on web software and product development at Eyemagnet.
+- Financial services: built internal security-team tools and workflow automation at ANZ, using Node.js and React in a regulated environment.
+- Food tech: led online-ordering engineering and delivery integrations at Zambrero, with experience in React Native, Node.js, TypeScript, AWS and database reliability.
+- Enterprise SaaS: built frontend and backend product functionality at Sine/Honeywell using React, Node.js and TypeScript, and helped improve Cypress test automation practices.
+- Health software: delivered telehealth mobile and web features at Updoc; later worked across healthcare applications, APIs and patient-facing products at FIG Health in Sydney.
+- New Zealand product engineering: built PHP/Symfony and JavaScript web applications and APIs using PostgreSQL at Eyemagnet.
 - Founder: built Lifyzer across food data, backend services and mobile applications; also created the MealSnap food-analysis app.
 
 ## AI engineering evidence
