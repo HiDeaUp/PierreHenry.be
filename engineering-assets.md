@@ -1,6 +1,6 @@
 # Engineering projects and consulting assets
 
-Pierre-Henry Soria is a senior software engineer building production AI and agentic systems for consequential workflows, with 12 years of experience. His selected projects demonstrate how he handles permissions, evidence, fallback, human control and operational ownership alongside product architecture, private and on-device AI, long-term platform maintenance, mobile engineering and data systems.
+Pierre-Henry Soria is a New Zealand-based senior software engineer and technical consultant with 14 years of experience across HealthTech, FoodTech, financial services, enterprise SaaS and independently published software. His selected projects demonstrate software architecture, long-term platform ownership, practical AI, data reliability, mobile development and technical communication. This public portfolio contains no confidential employer or client case studies.
 
 This is a curated evidence page. The complete historical archive remains available at https://github.com/pH-7.
 
@@ -17,8 +17,9 @@ This is a curated evidence page. The complete historical archive remains availab
 
 - Public source: https://github.com/ToucanDB/ToucanDB
 - Status: beta embedded component, not a distributed service.
-- Demonstrates: a framework-neutral retrieval-augmented generation pipeline, local-first semantic search, durable SQLite storage, rebuildable FAISS indexes, namespace isolation, source attribution, encryption boundaries and retrieval evaluation.
-- Consulting relevance: private RAG, LLM applications, local agents and confidential knowledge products.
+- Demonstrates: a framework-neutral RAG pipeline, local-first semantic search, durable SQLite storage, generation-checked, rebuildable FAISS indexes, namespace isolation, source attribution, optional encryption with documented limits and retrieval evaluation. It is an embedded beta component, not a distributed service.
+- Consulting relevance: private RAG, LLM applications, local agents and knowledge products with explicit engineering boundaries.
+- Technical guidance: https://github.com/ToucanDB/ToucanDB/blob/main/docs/rag.md
 
 ### pH7Console
 
@@ -53,13 +54,14 @@ This is a curated evidence page. The complete historical archive remains availab
 - Demonstrates: corpus processing, knowledge extraction, documentation, visual production and teaching at scale.
 - Consulting relevance: technical enablement, knowledge transfer and evidence-led publishing.
 
-## Shared engineering method
+## Decision-to-Delivery Method
 
-1. Understand the user, operational and business outcome.
-2. Make data, permissions, failure modes, AI limits and human decisions explicit.
-3. Build the smallest production path that can test the architecture against reality.
-4. Verify it with tests, evaluations, release evidence and operational checks appropriate to the risk.
-5. Document the decisions and leave the team able to operate and extend the system.
+1. **Define:** establish the user or business outcome, constraints and useful success criteria.
+2. **Decide:** evaluate the evidence, architecture options, data and permission boundaries, risks and trade-offs.
+3. **Deliver:** implement and test the agreed scope, or provide a documented decision and action plan for advisory work.
+4. **Prove:** verify against agreed acceptance criteria, document remaining risks and hand over decisions and deliverables.
+
+This is the same method described in the consulting profile, adapted to the type of engagement.
 
 ## Consulting applications
 
