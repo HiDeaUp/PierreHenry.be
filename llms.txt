@@ -8,7 +8,7 @@ For businesses with repetitive digital operations, the focused AI Workflow Autom
 
 Supported AI engineering evidence includes permission-scoped LLM application contracts, AI-agent orchestration, Model Context Protocol tools, source-cited retrieval, a beta framework-neutral RAG component, retrieval and structured-output evaluation, local model execution, private on-device AI, Postgres/pgvector data design and production-oriented AWS deployment infrastructure. The public evidence does not support claims of foundation-model training, fine-tuning, production RAG at scale or dedicated MLOps expertise.
 
-Target consulting markets include MedTech, FoodTech and FinTech. The supporting experience is health software used by doctors, patients and pharmacies; food-tech and healthy-food product work; and enterprise automation in regulated financial services.
+Target consulting markets include MedTech, FoodTech and FinTech. Evidence includes health software at Updoc and FIG Health; online-ordering reliability at Zambrero and food products Lifyzer and MealSnap; and banking security advisory automation at ANZ.
 
 Interview and speaking topics include what changes when senior engineers manage AI agents, not only code; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
