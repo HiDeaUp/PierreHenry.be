@@ -40,21 +40,22 @@ Also relevant:
 - Reliability, scalability, software modernisation and technical-debt decisions
 - Enterprise automation for decision-support and operational workflows
 
+## Decision-to-Delivery Method
+
+Pierre-Henry helps product teams when an important technical decision, difficult integration, unreliable production system or AI feature needs experienced judgement and hands-on ownership. The same working method applies across sectors:
+
+1. **Define:** establish the important outcome, who is affected and how success will be assessed.
+2. **Decide:** review evidence, technical options, trade-offs and risks before committing.
+3. **Deliver:** implement the agreed scope, or conclude with a written plan when the work is advisory.
+4. **Prove:** verify against agreed criteria, document remaining risks and hand over.
+
 ## Ways to work together
 
-Pierre-Henry is most useful when a product or engineering problem needs experienced judgement and hands-on ownership. Typical problems include software architecture, production reliability, system modernisation, early product delivery, AI integration and technical leadership. He is open to:
+- **Production Risk & Delivery Sprint:** five business days, up to 15 hours. A focused review of one engineering problem, ending with written priorities, a technical plan and a handover. A bounded prototype may be included if agreed.
+- **Scoped Engineering Delivery:** a defined product build, integration, reliability improvement, modernisation or AI capability, with agreed outputs, acceptance criteria and fee.
+- **Embedded Senior Engineering Partner:** agreed senior technical capacity for architecture, hands-on delivery and leadership over a defined period.
 
-- a five-business-day Production Risk & Delivery Sprint, up to 15 hours, ending with a prioritised risk map, technical plan, a 60-minute handoff and, when useful, one bounded implementation or prototype;
-- larger scoped engineering delivery after the first bounded engagement;
-- embedded senior engineering engagements;
-- senior or lead engineering roles;
-- founding and early product-building work;
-- focused technical advisory on architecture, reliability, scalability, modernisation, AI delivery and technical debt;
-- architecture combined with hands-on implementation;
-- speaking, technical education and collaboration;
-- conversations about repeated customer problems that may justify a scalable product.
-
-Consulting can begin with a Production Risk & Delivery Sprint, continue through a larger scoped build or extend into embedded senior support. The common requirement is a real technology or product problem, meaningful ownership and a clear outcome. This is not generic outsourced development or broad business coaching.
+Early-stage product work and AI automation can fall within scoped or embedded engagements. Selected permanent senior roles, speaking and technical education remain available separately. Scope, fees, communication and deliverables are agreed before paid work. See https://www.pierrehenry.be/work-with-me.html.
 
 ## Build, teach, advise, productise
 
