@@ -8,7 +8,7 @@ For businesses with repetitive digital operations, the focused AI Workflow Autom
 
 Publicly inspectable AI engineering examples include ToucanDB, pH7Console and SucceedAI, covering retrieval, source attribution, local models and user-controlled AI. General professional capabilities include AI agent orchestration, Model Context Protocol tools, PostgreSQL, AWS and software architecture.
 
-Target consulting markets include MedTech, FoodTech and FinTech. Employment experience includes digital health at Updoc and FIG Health, food technology at Zambrero, and financial services at ANZ. Founder-led public products include Lifyzer and MealSnap.
+Target consulting markets include MedTech, FoodTech and FinTech. Experience includes telehealth web and mobile software at Updoc; healthcare applications and APIs at FIG Health; online ordering, delivery integrations and reliability engineering at Zambrero; and internal engineering automation at ANZ. Other experience includes full-stack enterprise SaaS and New Zealand product engineering. Founder-led public food products include Lifyzer and MealSnap. These are high-level professional contributions rather than disclosures of employer architectures or internal operational data.
 
 Interview and speaking topics include what changes when senior engineers manage AI agents, not only code; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
