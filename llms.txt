@@ -25,6 +25,7 @@ Public knowledge is part of the operating model: build real systems, publish use
 - [Engineering projects and consulting assets](https://www.pierrehenry.be/engineering-assets.html): Curated public evidence for long-term platform work, private and on-device AI, product foundations, food-tech systems and technical education.
 - [Machine-readable engineering assets](https://www.pierrehenry.be/engineering-assets.md): Plain-text project evidence, limitations and consulting applications.
 - [Consulting and senior roles](https://www.pierrehenry.be/work-with-me.html): Production Risk & Delivery Sprint, scoped delivery, embedded senior engineering, long-term roles and contact details.
+- [Production Risk & Delivery Sprint](https://www.pierrehenry.be/production-risk-sprint.html): Focused technical assessment for existing software products, with a five-business-day window, up to 15 hours of review, written priorities and a handover call. Project-specific quotation; no published fixed price.
 - [AI workflow automation](https://www.pierrehenry.be/automation.html): Opportunity Audit, fixed-scope Automation Sprint, multi-workflow Automation System and an immediate local preliminary assessment.
 - [Healthtech AI product engineering](https://www.pierrehenry.be/healthtech-ai-product-engineer.html): Focused consulting profile for healthtech product ownership, software architecture, reliability and AI-first delivery.
 
