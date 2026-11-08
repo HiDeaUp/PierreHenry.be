@@ -106,12 +106,12 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Selected experience
 
-- Financial services: built enterprise decision-support and workflow software in a regulated environment, with correctness and operational reliability shaping engineering decisions.
+- Financial services: at ANZ, built security advisory decision-support and workflow automation software in a regulated banking environment.
 - Food tech: improved online-ordering reliability at Zambrero through infrastructure, caching, query, data-mapping and database-index work.
 - Enterprise SaaS: worked at Sine and Honeywell across frontend, backend and core operational systems using Node.js, React, TypeScript and AWS, with responsibility for test-automation practices and teaching.
-- Health software: built user-facing platforms for doctors, patients and pharmacies at Updoc.
+- Health software: built products for doctors, patients and pharmacies at Updoc, then mobile apps, APIs, patient portals and clinical-record workflows at FIG Health.
 - New Zealand product engineering: built web applications, APIs and commerce workflows at Eyemagnet using PHP, Symfony, JavaScript and PostgreSQL.
-- Founder: created a healthy-food product across mobile applications and backend services.
+- Founder: built Lifyzer across food data, backend services and mobile applications; also created the MealSnap food-analysis app.
 
 ## AI engineering evidence
 
