@@ -6,9 +6,9 @@ Strong consulting fits include software architecture and modernisation, unreliab
 
 For businesses with repetitive digital operations, the focused AI Workflow Automation offer starts with an Opportunity Audit, continues with a fixed-scope Automation Sprint for one workflow, and can expand into an Automation System spanning related workflows. The work separates deterministic rules, bounded AI assistance and accountable human decisions. Value estimates use only client-supplied volume, time and cost information.
 
-Publicly inspectable AI engineering examples include ToucanDB, pH7Console and SucceedAI, covering retrieval, source attribution, local models and user-controlled AI. General professional capabilities include AI agent orchestration, Model Context Protocol tools, PostgreSQL, AWS and software architecture. Details of former employers’ systems and infrastructure are not published here.
+Publicly inspectable AI engineering examples include ToucanDB, pH7Console and SucceedAI, covering retrieval, source attribution, local models and user-controlled AI. General professional capabilities include AI agent orchestration, Model Context Protocol tools, PostgreSQL, AWS and software architecture.
 
-Target consulting markets include MedTech, FoodTech and FinTech. Employment experience includes digital health at Updoc and FIG Health, food technology at Zambrero, and financial services at ANZ. Founder-led public products include Lifyzer and MealSnap. Employer-specific architecture, operations, results and internal workflows are not disclosed.
+Target consulting markets include MedTech, FoodTech and FinTech. Employment experience includes digital health at Updoc and FIG Health, food technology at Zambrero, and financial services at ANZ. Founder-led public products include Lifyzer and MealSnap.
 
 Interview and speaking topics include what changes when senior engineers manage AI agents, not only code; moving AI prototypes into dependable production products; defining boundaries between AI and human judgement in consequential workflows; and lessons from thirteen years and more than 11,000 commits on one open-source platform.
 
