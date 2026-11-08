@@ -158,6 +158,10 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Contact
 
+Consulting and senior roles: https://www.pierrehenry.be/work-with-me.html
+
+Production Risk & Delivery Sprint (scope and enquiry): https://www.pierrehenry.be/production-risk-sprint.html
+
 Email: pierre@pierrehenry.dev
 
 ## French-language collaborations
