@@ -106,17 +106,17 @@ Engineering projects and consulting assets: https://www.pierrehenry.be/engineeri
 
 ## Selected experience
 
-- Financial services: worked as a senior software engineer at ANZ in a regulated banking environment. Employer-specific systems and workflows are not described.
-- Food tech: worked on food ordering software at Zambrero. Employer-specific implementation details and performance metrics are not published.
+- Financial services: worked as a senior software engineer at ANZ in a regulated banking environment.
+- Food tech: worked on food ordering software at Zambrero.
 - Enterprise SaaS: worked on enterprise software at Sine/Honeywell, with experience in product engineering and collaborative development.
-- Health software: worked on telehealth products at Updoc, then digital health software at FIG Health in Sydney. Employer-specific system details are not published.
+- Health software: worked on telehealth products at Updoc, then digital health software at FIG Health in Sydney.
 - New Zealand product engineering: worked on web software and product development at Eyemagnet.
 - Founder: built Lifyzer across food data, backend services and mobile applications; also created the MealSnap food-analysis app.
 
 ## AI engineering evidence
 
-- My approach to AI engineering emphasises access boundaries, evaluation, source evidence and human oversight. This describes my method, not an employer system.
-- General engineering capabilities include AWS, deployment automation and cloud application design; no former employer configuration or architecture is disclosed.
+- My approach to AI engineering emphasises access boundaries, evaluation, source evidence and human oversight.
+- General engineering capabilities include AWS, deployment automation and cloud application design.
 - Experience with PostgreSQL and vector search; publicly inspectable retrieval examples are linked below.
 - ToucanDB is a beta, framework-neutral RAG and vector-retrieval component with durable SQLite storage, rebuildable FAISS indexes, namespace isolation, source attribution, encryption boundaries and reviewed retrieval evaluation.
 - pH7Console demonstrates local model execution and user-controlled workspace access. SucceedAI demonstrates private, on-device AI with explicit user control and safe replacement behaviour.
