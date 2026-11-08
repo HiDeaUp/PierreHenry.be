@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Production AI Engineering Evidence | Pierre-Henry</title>
-    <meta name="description" content="Inspectable engineering evidence for production AI boundaries, private and on-device AI, long-term platform ownership and product architecture." />
+    <title>Software Engineering Projects &amp; Evidence | Pierre-Henry Soria</title>
+    <meta name="description" content="Inspect Pierre-Henry Soria’s public software projects: ToucanDB, pH7Builder, privacy-conscious AI, software architecture, FoodTech and long-term product engineering." />
     <meta name="author" content="Pierre-Henry Soria" />
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <meta name="theme-color" content="#102a43" />
@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./static/css/professional.css?v=20261028" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_NZ" />
-    <meta property="og:title" content="Production AI &amp; Software Engineering Evidence" />
-    <meta property="og:description" content="Public systems that make Pierre-Henry's AI boundaries, product architecture and long-term engineering ownership inspectable." />
+    <meta property="og:title" content="Software Engineering Projects &amp; Evidence | Pierre-Henry Soria" />
+    <meta property="og:description" content="Public projects demonstrating AI boundaries, software architecture, FoodTech and long-term ownership. Inspect the code and decisions." />
     <meta property="og:url" content="https://www.pierrehenry.be/engineering-assets.html" />
     <meta property="og:image" content="https://www.pierrehenry.be/static/img/og-pierre-henry-technical.png" />
     <meta property="og:image:type" content="image/png" />
@@ -27,8 +27,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Technical software engineering and AI systems illustration for Pierre-Henry Soria" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Production AI &amp; Software Engineering Evidence" />
-    <meta name="twitter:description" content="Selected systems demonstrating AI boundaries, private AI, product architecture and long-term ownership." />
+    <meta name="twitter:title" content="Software Engineering Projects &amp; Evidence | Pierre-Henry Soria" />
+    <meta name="twitter:description" content="Public projects demonstrating AI boundaries, software architecture, FoodTech and long-term ownership." />
     <meta name="twitter:image" content="https://www.pierrehenry.be/static/img/og-pierre-henry-technical.png" />
     <script type="application/ld+json">
     {
@@ -40,7 +40,7 @@
           "url": "https://www.pierrehenry.be/engineering-assets.html",
           "name": "Engineering projects and consulting assets by Pierre-Henry Soria",
           "description": "Selected public systems and product work demonstrating AI product engineering, private AI, software architecture, platform modernisation and technical education.",
-          "dateModified": "2026-10-27",
+          "dateModified": "2026-11-09",
           "inLanguage": "en-NZ",
           "about": { "@id": "https://www.pierrehenry.be/#person" },
           "mainEntity": { "@id": "https://www.pierrehenry.be/engineering-assets.html#projects" }
@@ -181,11 +181,11 @@
             <div class="page-width">
                 <p class="breadcrumb"><a href="./index.html">Home</a> <span aria-hidden="true">/</span> Engineering projects</p>
                 <p class="eyebrow">Selected systems · Public evidence · Explicit boundaries</p>
-                <h1>Engineering evidence for production AI.</h1>
+                <h1>Software engineering work you can inspect.</h1>
                 <p class="subpage-summary">
-                    My public archive spans more than a decade. I selected the strongest current systems to show how I handle
-                    AI boundaries, product ownership, architecture, private and on-device AI, long-term maintenance and technical communication.
-                    The full archive remains available and part of my history.
+                    My public projects show how I approach architecture, reliability, AI boundaries, product ownership and long-term maintenance.
+                    Inspect the code and engineering choices behind the work. These are independent projects, not confidential employer or client case studies.
+                    Project maturity and limitations are stated where relevant.
                 </p>
                 <div class="button-row">
                     <a class="button button-primary" href="#flagships">See the selected systems</a>
@@ -228,9 +228,10 @@
                     <p>A beta, embedded local-first vector database with a framework-neutral RAG pipeline for semantic search, retrieval and application memory. SQLite remains the durable source of truth while FAISS indexes can be rebuilt deterministically.</p>
                     <dl class="asset-proof">
                         <dt>Consulting relevance</dt><dd>Private RAG, LLM applications, local agents and confidential knowledge products.</dd>
-                        <dt>Reusable advantage</dt><dd>Namespace isolation, source attribution, bounded context, encryption boundaries and retrieval evaluation in one component.</dd>
+                        <dt>Engineering decisions</dt><dd>SQLite is the durable record; generation-checked FAISS indexes can be rebuilt. Retrieval uses bounded context and source attribution. Encryption is optional and has documented limits.</dd>
                     </dl>
                     <a class="text-link" href="https://github.com/ToucanDB/ToucanDB" target="_blank" rel="noopener">Inspect ToucanDB on GitHub <span aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="https://github.com/ToucanDB/ToucanDB/blob/main/docs/rag.md" target="_blank" rel="noopener">Read the RAG architecture and examples <span aria-hidden="true">↗</span></a>
                 </article>
 
                 <article class="asset-card">
@@ -298,16 +299,15 @@
         <section class="asset-method" aria-labelledby="method-title">
             <div class="page-width asset-method-layout">
                 <div>
-                    <p class="eyebrow eyebrow-light">How the assets work together</p>
-                    <h2 id="method-title">From ambiguous workflow to verified production path.</h2>
-                    <p>The value is not a collection of reusable code dropped into every engagement. It is a tested way to make the important decisions visible and reuse only what fits.</p>
+                    <p class="eyebrow eyebrow-light">How I approach client work</p>
+                    <h2 id="method-title">The Decision-to-Delivery Method.</h2>
+                    <p>These projects offer public examples of engineering decisions behind the same approach I use in consulting. The method adapts to advisory work, scoped delivery and embedded technical ownership.</p>
                 </div>
                 <ol class="method-steps">
-                    <li><span>01</span><div><strong>Understand</strong><p>Define the user, operational and business outcome before selecting the technology.</p></div></li>
-                    <li><span>02</span><div><strong>Bound</strong><p>Make data, permissions, failure modes, AI limits and human decisions explicit.</p></div></li>
-                    <li><span>03</span><div><strong>Build</strong><p>Ship the smallest production path that can test the architecture against reality.</p></div></li>
-                    <li><span>04</span><div><strong>Verify</strong><p>Use tests, evaluations, release evidence and operational checks appropriate to the risk.</p></div></li>
-                    <li><span>05</span><div><strong>Transfer</strong><p>Document the decisions and leave the team able to operate and extend the system.</p></div></li>
+                    <li><span>01</span><div><strong>Define</strong><p>Understand the user or business outcome, the constraints and how a useful result can be assessed.</p></div></li>
+                    <li><span>02</span><div><strong>Decide</strong><p>Examine evidence, architecture options, data boundaries, permissions, failure modes and trade-offs.</p></div></li>
+                    <li><span>03</span><div><strong>Deliver</strong><p>Implement and test the agreed scope, or provide a documented decision and action plan for advisory work.</p></div></li>
+                    <li><span>04</span><div><strong>Prove</strong><p>Check the agreed acceptance criteria, document remaining risks and hand over the work and decisions.</p></div></li>
                 </ol>
             </div>
         </section>
@@ -336,7 +336,7 @@
                 <article>
                     <p class="index-number">Engineering enablement</p>
                     <h3>Delivery should improve the team, not create dependency</h3>
-                    <p>Combine architecture, implementation, technical explanation and reusable working practices in the same engagement.</p>
+                    <p>Combine architecture, implementation, verification, clear documentation and knowledge transfer in the same engagement.</p>
                 </article>
             </div>
         </section>
