@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Can Your SaaS Safely Handle a Failed API Request? | Pierre-Henry Soria</title>
+  <meta name="description" content="Test a failure that can silently duplicate payments or orders. A practical, evidence-first guide to API retries, idempotency and recovery, with a runnable Node.js showcase." />
+  <meta name="author" content="Pierre-Henry Soria" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <meta name="theme-color" content="#102a43" />
+  <link rel="canonical" href="https://www.pierrehenry.be/saas-integration-reliability.html" />
+  <link rel="icon" type="image/svg+xml" href="./static/img/favicon.svg" />
+  <link rel="stylesheet" href="./static/css/professional.css?v=20261028" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Can Your SaaS Safely Handle a Failed API Request?" />
+  <meta property="og:description" content="A free, reproducible API reliability exercise. Find the failure, understand the risk, test the recovery." />
+  <meta property="og:url" content="https://www.pierrehenry.be/saas-integration-reliability.html" />
+  <meta property="og:image" content="https://www.pierrehenry.be/static/img/og-pierre-henry-soria-v2.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Can Your SaaS Safely Handle a Failed API Request?",
+    "description": "An evidence-first API integration reliability exercise using a reproducible simulated payment workflow.",
+    "author": {"@type": "Person", "name": "Pierre-Henry Soria", "url": "https://www.pierrehenry.be/"},
+    "url": "https://www.pierrehenry.be/saas-integration-reliability.html",
+    "datePublished": "2026-10-29",
+    "inLanguage": "en-NZ",
+    "mainEntityOfPage": "https://www.pierrehenry.be/saas-integration-reliability.html"
+  }
+  </script>
+  <style>
+    .resource-hero {padding:clamp(3.5rem,8vw,6rem) 0 2rem}
+    .resource-hero h1 {max-width:19ch}
+    .resource-lead {font-size:clamp(1.16rem,2vw,1.38rem);max-width:52rem;color:var(--ink-soft)}
+    .resource-narrow {max-width:860px;margin-inline:auto}
+    .resource-section {padding:2.5rem 0;border-top:1px solid var(--line)}
+    .resource-section h2 {max-width:25ch}
+    .resource-section p,.resource-section li {max-width:72ch}
+    .resource-meta {display:flex;gap:1rem;flex-wrap:wrap;color:var(--ink-soft);font-size:.9rem}
+    .resource-lead strong {color:var(--ink)}
+    .resource-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0}
+    .resource-card {background:var(--surface);border:1px solid var(--line);border-radius:.85rem;padding:1.4rem}
+    .resource-card strong {display:block;font-size:1.15rem;margin-bottom:.35rem}
+    .resource-card p {color:var(--ink-soft);margin:0}
+    .resource-note {padding:1.25rem 1.5rem;border-left:4px solid var(--coral);background:#fff7ef;margin:1.5rem 0}
+    .resource-code {background:#102a43;color:#ecf8f4;padding:1.5rem;border-radius:.7rem;overflow:auto;font: .87rem/1.65 var(--mono);white-space:pre}
+    .resource-actions {display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin:1.4rem 0}
+    .resource-steps {counter-reset:step;list-style:none;padding:0}
+    .resource-steps li {position:relative;padding:0 0 1.3rem 3.2rem}
+    .resource-steps li::before {counter-increment:step;content:counter(step, decimal-leading-zero);position:absolute;left:0;top:0;color:var(--accent);font:700 1rem var(--mono)}
+    .resource-checks {list-style:none;padding:0}
+    .resource-checks li {padding:.65rem 0;border-bottom:1px solid var(--line)}
+    .resource-checks li::before {content:"□";color:var(--accent);margin-right:.8rem}
+    .resource-cta {padding:2rem;background:var(--ink);color:#fffdf8;border-radius:1rem}
+    .resource-cta h2 {color:#fffdf8;max-width:24ch}
+    .resource-cta p {color:#d5e3e5}
+    .resource-footer {padding:2rem 0 4rem;color:var(--ink-soft);font-size:.9rem}
+    @media(max-width:720px){.resource-grid{grid-template-columns:1fr}.resource-code{font-size:.75rem;padding:1rem}.resource-hero{padding-top:2.5rem}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="page-width nav-wrap">
+      <a class="wordmark" href="./index.html" aria-label="Pierre-Henry Soria, home"><span aria-hidden="true">PH</span><span>Pierre-Henry Soria</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="./engineering-assets.html">Projects</a>
+        <a href="./automation.html">Automation</a>
+        <a href="./work-with-me.html">For Businesses</a>
+        <a class="nav-cta" href="#exercise">Try the exercise</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="page-width">
+    <header class="resource-hero resource-narrow">
+      <p class="eyebrow">Free engineering resource · SaaS reliability · Practical exercise</p>
+      <h1>Can your SaaS safely handle a failed API request?</h1>
+      <p class="resource-lead">A payment can succeed even when your application sees a timeout. If you retry without knowing what happened, could you accidentally charge someone twice? <strong>Here's how to reproduce the failure, inspect the decision, and understand what reliable recovery requires.</strong></p>
+      <p class="resource-meta"><span>By Pierre-Henry Soria</span><span>29 October 2026</span><span>Node.js · API integrations · Failure recovery</span></p>
+      <div class="resource-actions">
+        <a class="button button-primary" href="#exercise">Run the free exercise</a>
+        <a class="button button-secondary" href="https://github.com/pH-7/SaaS-Reliability-Showcase">Inspect the source on GitHub ↗</a>
+      </div>
+    </header>
+    <div class="resource-narrow">
+      <section class="resource-section" aria-labelledby="why-title">
+        <h2 id="why-title">The failure you may not have tested</h2>
+        <p>Imagine a customer places an order. Your SaaS sends a payment request. The provider commits the charge, but the network response never reaches your server.</p>
+        <p>Your application sees a timeout. What should it do now? Retrying with a new operation identifier could produce a second charge. Treating the timeout as a failure could leave the customer charged without an order. Both are bad outcomes.</p>
+        <p>I've seen how much difference the right decisions around integrations, caching and infrastructure can make to a production system. My starting point isn't adding more technology. It's understanding the failure and choosing the smallest reliable solution.</p>
+        <div class="resource-note"><strong>One important distinction:</strong> this is a constructed educational scenario, not a claim about a former client's payment system. The repository uses simulated charges and fictional orders, never real payment details.</div>
+      </section>
+      <section class="resource-section" aria-labelledby="test-title">
+        <h2 id="test-title">Before writing code, check three things</h2>
+        <div class="resource-grid">
+          <article class="resource-card"><strong>01. Request identity</strong><p>Does a repeated customer action reuse the original request identity, or create a new order?</p></article>
+          <article class="resource-card"><strong>02. Provider semantics</strong><p>Does your external provider guarantee idempotency for repeated operations? For how long and under which conditions?</p></article>
+          <article class="resource-card"><strong>03. Recovery evidence</strong><p>Can your system distinguish “failed before processing” from “may have succeeded but response was lost”?</p></article>
+        </div>
+        <p>Don't assume a retry library answers these questions. Retries are only safe when the underlying operation has a suitable contract.</p>
+      </section>
+      <section class="resource-section" id="exercise" aria-labelledby="exercise-title">
+        <p class="eyebrow">Do it yourself</p>
+        <h2 id="exercise-title">Run the failure and watch what changes</h2>
+        <p>The repository contains a small Node.js application, a browser interface, a simulated payment provider and automated tests. You can inspect the source rather than trusting screenshots.</p>
+        <p><strong>Requirements:</strong> Node.js 22.13+ and a local development environment. No account, API key, payment provider or npm dependencies required.</p>
+        <pre class="resource-code"><code>git clone https://github.com/pH-7/SaaS-Reliability-Showcase.git
+cd SaaS-Reliability-Showcase
+npm test
+npm start
+# Open http://127.0.0.1:3000</code></pre>
+        <ol class="resource-steps">
+          <li><strong>Explore the unsafe retry.</strong> In the browser, choose “Reproduce the unsafe retry”. The illustration shows two provider charges for one customer intention when operations are not identified consistently.</li>
+          <li><strong>Simulate an ambiguous timeout.</strong> Choose “Response lost after provider charges”, create a fictional order, then process it once. The provider records a charge, but the order remains retryable.</li>
+          <li><strong>Retry the same operation.</strong> Process the order again. The provider returns the existing simulated charge and the order completes without another charge.</li>
+          <li><strong>Try the client request again.</strong> Replay the initial order request using the same client key. You should get the existing order, not a second order.</li>
+          <li><strong>Inspect the evidence.</strong> Review the event history, compare attempts to provider-charge count, then run the automated tests and inspect the implementation.</li>
+        </ol>
+        <div class="resource-actions"><a class="button button-primary" href="https://github.com/pH-7/SaaS-Reliability-Showcase">Get the complete runnable example ↗</a></div>
+        <div class="resource-note"><strong>Safety boundary:</strong> use this project locally with fictional data. It intentionally exposes a reset action and is not a hardened production payments server. Do not run destructive failure tests against real customer accounts, payment systems or other production integrations.</div>
+      </section>
+      <section class="resource-section" aria-labelledby="verify-title">
+        <h2 id="verify-title">A checklist for your own integration</h2>
+        <p>Before signing off a critical workflow, I would want documented answers to these questions. They apply beyond payments to orders, webhooks, messaging and background jobs.</p>
+        <ul class="resource-checks">
+          <li>Can the same request be delivered twice without creating duplicate business operations?</li>
+          <li>Does your idempotency key represent the business intention, not just one HTTP attempt?</li>
+          <li>Is reusing the key with a different payload rejected or handled explicitly?</li>
+          <li>Have you checked the provider's actual deduplication guarantees, including key expiry?</li>
+          <li>Can the application represent an unknown outcome without incorrectly marking it failed or completed?</li>
+          <li>Is there a reconciliation process if your database and the external system disagree?</li>
+          <li>Do alerts cover operations that remain unresolved after retry limits are reached?</li>
+          <li>Can you test these cases safely in a sandbox or controlled environment?</li>
+        </ul>
+        <p><strong>If you cannot answer several of these yet, that doesn't automatically mean your architecture is wrong.</strong> It means there's something worth investigating before the failure happens in production.</p>
+      </section>
+      <section class="resource-section" aria-labelledby="ai-title">
+        <h2 id="ai-title">Use Claude Code or Codex to investigate your codebase</h2>
+        <p>AI can help locate integrations and reveal assumptions. But it cannot infer your provider's real behaviour or production guarantees just from source code. I would use it to produce an evidence-based review, not an automatic rewrite recommendation.</p>
+        <pre class="resource-code"><code>Review one external API integration in this repository.
+
+Scope: [path to the relevant module]
+Workflow: [what business operation it performs]
+
+Trace the entry point, request identity, retries,
+timeouts, database changes and recovery path.
+
+For each finding:
+- Cite the exact file and function.
+- Separate observed code from assumptions.
+- Identify what happens if the provider commits
+  the operation but the response is lost.
+- Check how duplicate requests are handled.
+- Identify missing information about the provider.
+- Propose the smallest safe improvement.
+- Specify tests that would verify the outcome.
+
+Do not modify code. Do not claim production
+behaviour without production evidence.</code></pre>
+        <p>Give the assistant access only to code and information you're authorised to share. Review its findings yourself, particularly around database transactions, idempotency and security.</p>
+      </section>
+      <section class="resource-section" aria-labelledby="limits-title">
+        <h2 id="limits-title">What the demo proves, and what it doesn't</h2>
+        <p>The demonstration shows how stable request and operation identities prevent repeated simulated side effects in one local process. It includes testable states for an unknown response and recovery through a repeat operation.</p>
+        <p>It does <strong>not</strong> prove that a real payment provider behaves the same way. The simulated provider shares the application's SQLite database. In production, the external service is a separate system with its own failure modes, key retention policy, reconciliation requirements, webhook semantics, credentials and security obligations.</p>
+        <p>The most important lesson is not “add an idempotency key and you're done”. It's to establish the actual contract, decide how to handle uncertain outcomes and verify recovery with evidence.</p>
+      </section>
+      <section class="resource-section" aria-labelledby="next-title">
+        <div class="resource-cta">
+          <p class="eyebrow">For product teams</p>
+          <h2 id="next-title">Found a workflow you can't confidently recover?</h2>
+          <p>I'm a senior software engineer helping SaaS and product teams investigate critical integration failures, choose the right technical improvements and deliver working software with tests and a clear handover.</p>
+          <p>You can use everything above independently. If you'd prefer experienced engineering ownership of the investigation or implementation, tell me which workflow matters, what is going wrong and what the business needs to achieve.</p>
+          <a class="button button-primary" href="./work-with-me.html">Discuss your engineering problem</a>
+        </div>
+      </section>
+      <footer class="resource-footer">
+        <p><strong>Pierre-Henry Soria</strong> · Senior Software Engineer &amp; Technical Consultant</p>
+        <p><a href="./index.html">Home</a> · <a href="./engineering-assets.html">Engineering evidence</a> · <a href="https://github.com/pH-7/SaaS-Reliability-Showcase">GitHub source</a></p>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
