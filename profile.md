@@ -1,8 +1,8 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a New Zealand-based senior software engineer and software engineering consultant with 14 years of experience. He helps businesses make better technical decisions, build reliable software products, improve existing systems and reduce delivery risk. His practice spans software architecture, full-stack and backend development, cloud infrastructure, technical leadership and AI product engineering, including permission-scoped agents, retrieval systems, evaluation and human review.
+Pierre-Henry Soria is a Wellington-based senior software engineer and software engineering consultant with 14 years of experience. He helps businesses make better technical decisions, build reliable software products, improve existing systems and reduce delivery risk. His practice spans software architecture, full-stack and backend development, cloud infrastructure, technical leadership and AI product engineering, including permission-scoped agents, retrieval systems, evaluation and human review.
 
-Primary market: Wellington, New Zealand. Open for consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
+Based in Wellington, New Zealand. Available for freelance software engineering, consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
 ## Consulting and role fit
 
