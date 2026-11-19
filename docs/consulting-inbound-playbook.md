@@ -61,4 +61,4 @@ The dedicated page will not create demand by itself. Link it from useful technic
 
 ## Operational limitations
 
-The live enquiry CTA currently opens a prefilled email. It does not submit a form, store contact details, book meetings, automatically follow up, process payments or confirm availability. Avoid claiming any of those capabilities. Publishing must wait until the pull request is reviewed and merged. Ensure NZ work rights permit the intended paid engagement before entering an independent consulting agreement.
+The live enquiry CTA currently opens a prefilled email. It does not submit a form, store contact details, book meetings, automatically follow up, process payments or confirm availability. Avoid claiming any of those capabilities. Review site changes before publishing. Ensure NZ work rights permit the intended paid engagement before entering an independent consulting agreement.
