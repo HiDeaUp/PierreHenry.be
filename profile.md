@@ -1,6 +1,6 @@
 # Pierre-Henry Soria
 
-Pierre-Henry Soria is a Wellington-based senior software engineer and software engineering consultant with 14 years of experience. He helps businesses make better technical decisions, build reliable software products, improve existing systems and reduce delivery risk. His practice spans software architecture, full-stack and backend development, cloud infrastructure, technical leadership and AI product engineering, including permission-scoped agents, retrieval systems, evaluation and human review.
+Pierre-Henry Soria is a Wellington-based senior software engineer and software engineering consultant with 14 years of experience. As an AI consultant and hands-on technical problem solver, he helps businesses question assumptions, explore alternative approaches to difficult problems, build reliable software products and reduce delivery risk. His practice spans software architecture, full-stack and backend development, cloud infrastructure, technical leadership and AI product engineering, including permission-scoped agents, retrieval systems, evaluation and human review.
 
 Based in Wellington, New Zealand. Available for freelance software engineering, consulting, contract work and selected permanent senior roles across New Zealand, Australia and remote teams.
 
@@ -8,6 +8,7 @@ Based in Wellington, New Zealand. Available for freelance software engineering, 
 
 Primary roles:
 
+- AI Consultant
 - Software Engineering Consultant and Technical Consultant
 - Senior or Lead Software Engineer
 - AI Product Engineer
@@ -71,6 +72,7 @@ Prospective clients can inspect the selected systems, technical articles, videos
 ## Principles of practice
 
 - Start with the workflow and the customer, risk, cost or operational consequence the technical decision needs to improve.
+- Question apparent constraints, compare alternative approaches and test feasibility before promising a solution.
 - Keep AI permissions, source evidence, evaluation, deterministic fallback and human escalation visible.
 - Treat ownership, monitoring, failure states and recovery as part of product delivery.
 - Leave systems understandable through clear contracts, documentation and tested decisions.
