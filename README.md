@@ -1,6 +1,6 @@
 # PierreHenry.be
 
-Personal website of **Pierre-Henry Soria**, a senior software engineer and technical consultant based in **Wellington, New Zealand**.
+Personal website of **Pierre-Henry Soria**, an AI consultant, senior software engineer and technical problem solver based in **Wellington, New Zealand**.
 
 <p align="center">
   <a href="https://www.pierrehenry.be/">
@@ -23,7 +23,7 @@ Personal website of **Pierre-Henry Soria**, a senior software engineer and techn
 
 I'm a senior software engineer with 14 years of experience building and improving production software. My work spans full-stack product engineering, software architecture, complex integrations, reliability and practical AI. I've worked across healthcare, food technology, financial services and SaaS.
 
-I work with founders, product teams and engineering leaders on focused consulting and contract engagements in New Zealand, Australia and remotely. I care about solving the right problem, making sound technical decisions and delivering software that can be maintained.
+I work with founders, product teams and engineering leaders on focused consulting and contract engagements in New Zealand, Australia and remotely. When the usual approach fails, I question assumptions, explore alternatives and test what is feasible. I care about solving the right problem and delivering software that can be maintained.
 
 **Engineering focus:** TypeScript, Node.js, React, React Native, APIs, SQL, AWS, software architecture and AI engineering.
 
